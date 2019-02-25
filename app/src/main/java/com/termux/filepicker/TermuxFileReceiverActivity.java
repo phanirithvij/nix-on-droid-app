@@ -26,7 +26,9 @@ public class TermuxFileReceiverActivity extends Activity {
 
     static final String TERMUX_RECEIVEDIR = TermuxService.FILES_PATH + "/home/downloads";
     static final String EDITOR_PROGRAM = TermuxService.HOME_PATH + "/bin/termux-file-editor";
+    static final String EDITOR_PROGRAM_ALT = TermuxService.HOME_PATH + "/.local/bin/termux-file-editor";
     static final String URL_OPENER_PROGRAM = TermuxService.HOME_PATH + "/bin/termux-url-opener";
+    static final String URL_OPENER_PROGRAM_ALT = TermuxService.HOME_PATH + "/.local/bin/termux-url-opener";
 
     /**
      * If the activity should be finished when the name input dialog is dismissed. This is disabled
@@ -112,9 +114,14 @@ public class TermuxFileReceiverActivity extends Activity {
             File outFile = saveStreamWithName(in, text);
             if (outFile == null) return;
 
-            final File editorProgramFile = new File(EDITOR_PROGRAM);
-            if (!editorProgramFile.isFile()) {
-                showErrorDialogAndQuit("The following file does not exist:\n$HOME/bin/termux-file-editor\n\n"
+            final File editorProgramFile;
+
+            if (new File(EDITOR_PROGRAM).isFile()) {
+                editorProgramFile = new File(EDITOR_PROGRAM);
+            } else if (new File(EDITOR_PROGRAM_ALT).isFile()) {
+                editorProgramFile = new File(EDITOR_PROGRAM_ALT);
+            } else {
+                showErrorDialogAndQuit("The following file does not exist:\n$HOME/.local/bin/termux-file-editor\n\n"
                     + "Create this file as a script or a symlink - it will be called with the received file as only argument.");
                 return;
             }
@@ -169,9 +176,14 @@ public class TermuxFileReceiverActivity extends Activity {
     }
 
     void handleUrlAndFinish(final String url) {
-        final File urlOpenerProgramFile = new File(URL_OPENER_PROGRAM);
-        if (!urlOpenerProgramFile.isFile()) {
-            showErrorDialogAndQuit("The following file does not exist:\n$HOME/bin/termux-url-opener\n\n"
+        final File urlOpenerProgramFile;
+
+        if (new File(URL_OPENER_PROGRAM).isFile()) {
+            urlOpenerProgramFile = new File(URL_OPENER_PROGRAM);
+        } else if (new File(URL_OPENER_PROGRAM_ALT).isFile()) {
+            urlOpenerProgramFile = new File(URL_OPENER_PROGRAM_ALT);
+        } else {
+            showErrorDialogAndQuit("The following file does not exist:\n$HOME/.local/bin/termux-url-opener\n\n"
                 + "Create this file as a script or a symlink - it will be called with the shared URL as only argument.");
             return;
         }
@@ -188,5 +200,4 @@ public class TermuxFileReceiverActivity extends Activity {
         startService(executeIntent);
         finish();
     }
-
 }
