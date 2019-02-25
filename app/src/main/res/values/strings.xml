@@ -2,6 +2,7 @@
 <resources>
     <string name="application_name">Termux</string>
     <string name="shared_user_label">Termux user</string>
+    <string name="app_failsafe_mode">Termux (failsafe)</string>
     <string name="termux_exec_permission_label">Termux:Execute</string>
     <string name="termux_exec_permission_desc">Allows application to execute arbitrary shell commands within Termux.</string>
     <string name="new_session">New session</string>
