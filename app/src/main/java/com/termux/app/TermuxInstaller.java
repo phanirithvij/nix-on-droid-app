@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.os.Build;
 import android.os.Environment;
 import android.os.UserManager;
@@ -79,52 +80,74 @@ final class TermuxInstaller {
                         deleteFolder(STAGING_PREFIX_FILE);
                     }
 
-                    final byte[] buffer = new byte[8096];
-                    final List<Pair<String, String>> symlinks = new ArrayList<>(50);
+                    final byte[] buffer = new byte[16384];
+                    final List<Pair<String, String>> symlinks = new ArrayList<>(128);
+                    final List<String> executables = new ArrayList<>(128);
 
-                    final URL zipUrl = determineZipUrl();
-                    try (ZipInputStream zipInput = new ZipInputStream(zipUrl.openStream())) {
+                    final String bootstrapArchiveName = determineZipName();
+                    AssetManager assetManager = activity.getAssets();
+
+                    try (ZipInputStream zipInput = new ZipInputStream(assetManager.open(bootstrapArchiveName))) {
                         ZipEntry zipEntry;
                         while ((zipEntry = zipInput.getNextEntry()) != null) {
-                            if (zipEntry.getName().equals("SYMLINKS.txt")) {
-                                BufferedReader symlinksReader = new BufferedReader(new InputStreamReader(zipInput));
-                                String line;
-                                while ((line = symlinksReader.readLine()) != null) {
-                                    String[] parts = line.split("←");
-                                    if (parts.length != 2)
-                                        throw new RuntimeException("Malformed symlink line: " + line);
-                                    String oldPath = parts[0];
-                                    String newPath = STAGING_PREFIX_PATH + "/" + parts[1];
-                                    symlinks.add(Pair.create(oldPath, newPath));
-
-                                    ensureDirectoryExists(new File(newPath).getParentFile());
+                            switch (zipEntry.getName()) {
+                                case "EXECUTABLES.txt": {
+                                    BufferedReader executablesReader = new BufferedReader(new InputStreamReader(zipInput));
+                                    String line;
+                                    while ((line = executablesReader.readLine()) != null) {
+                                        executables.add(line);
+                                    }
+                                    break;
                                 }
-                            } else {
-                                String zipEntryName = zipEntry.getName();
-                                File targetFile = new File(STAGING_PREFIX_PATH, zipEntryName);
-                                boolean isDirectory = zipEntry.isDirectory();
-
-                                ensureDirectoryExists(isDirectory ? targetFile : targetFile.getParentFile());
-
-                                if (!isDirectory) {
-                                    try (FileOutputStream outStream = new FileOutputStream(targetFile)) {
-                                        int readBytes;
-                                        while ((readBytes = zipInput.read(buffer)) != -1)
-                                            outStream.write(buffer, 0, readBytes);
+                                case "SYMLINKS.txt": {
+                                    BufferedReader symlinksReader = new BufferedReader(new InputStreamReader(zipInput));
+                                    String line;
+                                    while ((line = symlinksReader.readLine()) != null) {
+                                        String[] parts = line.split("←");
+                                        if (parts.length != 2)
+                                            throw new RuntimeException("Malformed symlink line: " + line);
+                                        String oldPath = parts[0];
+                                        String newPath = STAGING_PREFIX_PATH + "/" + parts[1];
+                                        symlinks.add(Pair.create(oldPath, newPath));
+                                        ensureDirectoryExists(new File(newPath).getParentFile());
                                     }
-                                    if (zipEntryName.startsWith("bin/") || zipEntryName.startsWith("libexec") || zipEntryName.startsWith("lib/apt/methods")) {
-                                        //noinspection OctalInteger
-                                        Os.chmod(targetFile.getAbsolutePath(), 0700);
+                                    break;
+                                }
+                                default: {
+                                    String zipEntryName = zipEntry.getName();
+                                    File targetFile = new File(STAGING_PREFIX_PATH, zipEntryName);
+                                    boolean isDirectory = zipEntry.isDirectory();
+
+                                    ensureDirectoryExists(isDirectory ? targetFile : targetFile.getParentFile());
+
+                                    if (!isDirectory) {
+                                        try (FileOutputStream outStream = new FileOutputStream(targetFile)) {
+                                            int readBytes;
+                                            while ((readBytes = zipInput.read(buffer)) != -1)
+                                                outStream.write(buffer, 0, readBytes);
+                                        }
                                     }
+                                    break;
                                 }
                             }
                         }
                     }
 
-                    if (symlinks.isEmpty())
-                        throw new RuntimeException("No SYMLINKS.txt encountered");
-                    for (Pair<String, String> symlink : symlinks) {
-                        Os.symlink(symlink.first, symlink.second);
+                    if (!executables.isEmpty()) {
+                        for (String executable : executables) {
+                            //noinspection OctalInteger
+                            Os.chmod(STAGING_PREFIX_PATH + "/" + executable, 0700);
+                        }
+                    } else {
+                        throw new RuntimeException("Installer: no EXECUTABLES.txt found while extracting environment archive.");
+                    }
+
+                    if (!symlinks.isEmpty()) {
+                        for (Pair<String, String> symlink : symlinks) {
+                            Os.symlink(symlink.first, symlink.second);
+                        }
+                    } else {
+                        throw new RuntimeException("Installer: no SYMLINKS.txt found while extracting environment archive.");
                     }
 
                     if (!STAGING_PREFIX_FILE.renameTo(PREFIX_FILE)) {
@@ -167,10 +190,10 @@ final class TermuxInstaller {
         }
     }
 
-    /** Get bootstrap zip url for this systems cpu architecture. */
-    private static URL determineZipUrl() throws MalformedURLException {
+    /** Get bootstrap zip file name for this systems cpu architecture. */
+    private static String determineZipName() {
         String archName = determineTermuxArchName();
-        return new URL("https://termux.net/bootstrap/bootstrap-" + archName + ".zip");
+        return "bootstrap-" + archName;
     }
 
     private static String determineTermuxArchName() {
