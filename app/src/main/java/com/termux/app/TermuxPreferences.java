@@ -174,7 +174,7 @@ final class TermuxPreferences {
         }
 
         try {
-            JSONArray arr = new JSONArray(props.getProperty("extra-keys", "[['ESC', 'TAB', 'CTRL', 'ALT', '-', 'DOWN', 'UP']]"));
+            JSONArray arr = new JSONArray(props.getProperty("extra-keys", "[['ESC', 'CTRL', 'ALT', 'TAB', 'LEFT', 'RIGHT', 'UP', 'DOWN']]"));
 
             mExtraKeys = new String[arr.length()][];
             for (int i = 0; i < arr.length(); i++) {
