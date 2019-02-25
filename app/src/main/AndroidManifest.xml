@@ -14,6 +14,13 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
+    <permission
+        android:name="com.termux.permission.TERMUX_SERVICE"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/termux_exec_permission_label"
+        android:description="@string/termux_exec_permission_desc"
+        android:protectionLevel="dangerous"/>
+
     <application
         android:extractNativeLibs="true"
         android:allowBackup="true"
@@ -52,14 +59,6 @@
             android:parentActivityName=".app.TermuxActivity"
             android:resizeableActivity="true"
             android:label="@string/application_name" />
-
-
-        <activity
-            android:name="com.termux.styling.TermuxStyleActivity"
-            android:noHistory="true"
-            android:exported="false"
-            android:theme="@style/StylingAppTheme" >
-        </activity>
 
         <activity
             android:name="com.termux.filepicker.TermuxFileReceiverActivity"
@@ -117,7 +116,12 @@
 
         <service
             android:name="com.termux.app.TermuxService"
-            android:exported="false" />
+            android:exported="true"
+            android:permission="com.termux.permission.TERMUX_SERVICE">
+            <intent-filter>
+                <action android:name="com.termux.service_execute" />
+            </intent-filter>
+        </service>
 
         <receiver android:name=".app.TermuxOpenReceiver" />
 
@@ -129,6 +133,14 @@
 
         <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
 
+        <!-- Termux:Styling -->
+        <activity
+            android:name="com.termux.styling.TermuxStyleActivity"
+            android:noHistory="true"
+            android:exported="false"
+            android:theme="@style/StylingAppTheme" />
+
+        <!-- Termux:Widget -->
         <receiver
             android:name="com.termux.widget.TermuxWidgetProvider"
             android:label="@string/shortcut_widget_name" >
@@ -148,6 +160,7 @@
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />
             </intent-filter>
         </activity>
+
         <activity
             android:name="com.termux.widget.TermuxLaunchShortcutActivity"
             android:noHistory="true"
