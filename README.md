@@ -1,3 +1,24 @@
+Fork information
+================
+
+Nix on Android, in a single-click installable package.
+It's kind of a mess for now, but hey, it works!
+
+This repository is a fork of Termux-the-terminal-emulator used to execute
+Nix-on-Droid.
+
+All credit goes to Termux:
+
+* https://github.com/termux/termux-app
+* https://termux.com
+
+For the script responsible for the initial bootstrap zipball generation
+please refer to https://github.com/t184256/nix-on-droid-bootstrap
+
+
+
+Original README starts here:
+
 [![Travis build status](https://travis-ci.org/termux/termux-app.svg?branch=master)](https://travis-ci.org/termux/termux-app)
 [![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
 
@@ -30,3 +51,4 @@ Terminal emulators
 * xterm: The grandfather of terminal emulators. [Source](http://invisible-island.net/datafiles/release/xterm.tar.gz).
 * Connectbot: Android SSH client. [Source](https://github.com/connectbot/connectbot)
 * Android Terminal Emulator: Android terminal app which Termux terminal handling is based on. Inactive. [Source](https://github.com/jackpal/Android-Terminal-Emulator).
+

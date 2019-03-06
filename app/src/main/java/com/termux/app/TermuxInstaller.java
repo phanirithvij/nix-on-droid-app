@@ -136,7 +136,11 @@ final class TermuxInstaller {
                     if (!executables.isEmpty()) {
                         for (String executable : executables) {
                             //noinspection OctalInteger
+                            try {
                             Os.chmod(STAGING_PREFIX_PATH + "/" + executable, 0700);
+                            } catch (Throwable t) {
+                                    Log.e(EmulatorDebug.LOG_TAG, "EXECUTABLES error: " + STAGING_PREFIX_FILE + "/" + executable, t);
+                            }
                         }
                     } else {
                         throw new RuntimeException("Installer: no EXECUTABLES.txt found while extracting environment archive.");
@@ -144,7 +148,11 @@ final class TermuxInstaller {
 
                     if (!symlinks.isEmpty()) {
                         for (Pair<String, String> symlink : symlinks) {
+                            try {
                             Os.symlink(symlink.first, symlink.second);
+                            } catch (Throwable t) {
+                                Log.e(EmulatorDebug.LOG_TAG, "SYMLINKS error: " + symlink.first + " ! " + symlink.second, t);
+                            }
                         }
                     } else {
                         throw new RuntimeException("Installer: no SYMLINKS.txt found while extracting environment archive.");

@@ -15,7 +15,8 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 66
-        versionName "0.66_v0.4_by-xeffyr"
+        versionName "0.66_v0.1.0_nix"
+        applicationIdSuffix ".nix"
     }
 
     buildTypes {
@@ -30,6 +31,10 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -38,7 +43,7 @@ dependencies {
 
 preBuild.doFirst {
     assert file("./src/main/assets/bootstrap-aarch64").exists()
-    assert file("./src/main/assets/bootstrap-arm").exists()
-    assert file("./src/main/assets/bootstrap-i686").exists()
-    assert file("./src/main/assets/bootstrap-x86_64").exists()
+    //assert file("./src/main/assets/bootstrap-arm").exists()
+    //assert file("./src/main/assets/bootstrap-i686").exists()
+    //assert file("./src/main/assets/bootstrap-x86_64").exists()
 }

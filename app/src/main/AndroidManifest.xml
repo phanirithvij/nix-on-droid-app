@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.termux"
     android:installLocation="internalOnly"
-    android:sharedUserId="com.termux"
+    android:sharedUserId="com.termux.nix"
     android:sharedUserLabel="@string/shared_user_label" >
 
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
@@ -114,6 +114,7 @@
             </intent-filter>
         </activity-alias>
 
+	<!--
         <provider
             android:name=".filepicker.TermuxDocumentsProvider"
             android:authorities="com.termux.documents"
@@ -124,6 +125,7 @@
                 <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
             </intent-filter>
         </provider>
+	-->
 
         <service
             android:name="com.termux.app.TermuxService"
@@ -136,11 +138,13 @@
 
         <receiver android:name=".app.TermuxOpenReceiver" />
 
+	<!--
         <provider android:authorities="com.termux.files"
                   android:readPermission="android.permission.permRead"
                   android:exported="true"
                   android:grantUriPermissions="true"
                   android:name="com.termux.app.TermuxOpenReceiver$ContentProvider" />
+	-->
 
         <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
 

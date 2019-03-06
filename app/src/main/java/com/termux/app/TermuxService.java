@@ -46,7 +46,7 @@ public final class TermuxService extends Service implements SessionChangedCallba
 
     /** Note that this is a symlink on the Android M preview. */
     @SuppressLint("SdCardPath")
-    public static final String FILES_PATH = "/data/data/com.termux/files";
+    public static final String FILES_PATH = "/data/data/com.termux.nix/files";
     public static final String PREFIX_PATH = FILES_PATH + "/usr";
     public static final String HOME_PATH = FILES_PATH + "/home";
 
@@ -269,6 +269,7 @@ public final class TermuxService extends Service implements SessionChangedCallba
         if (executablePath == null) {
             for (String shellBinary : new String[]{"login", "bash", "zsh"}) {
                 File shellFile = new File(PREFIX_PATH + "/bin/" + shellBinary);
+	        Log.w(EmulatorDebug.LOG_TAG, "sf: " + shellFile + " " + shellFile.canExecute());
                 if (shellFile.canExecute()) {
                     executablePath = shellFile.getAbsolutePath();
                     break;
@@ -279,6 +280,7 @@ public final class TermuxService extends Service implements SessionChangedCallba
                 // Fall back to system shell as last resort:
                 executablePath = "/system/bin/sh";
             }
+            Log.w(EmulatorDebug.LOG_TAG, "Shell: " + executablePath);
             isLoginShell = true;
         }
 
