@@ -122,7 +122,7 @@ public class TermuxStyleActivity extends Activity {
         try {
             final String assetsFolder = colors ? "colors" : "fonts";
 
-            Context context = createPackageContext("com.termux", Context.CONTEXT_IGNORE_SECURITY);
+            Context context = createPackageContext("com.termux.nix", Context.CONTEXT_IGNORE_SECURITY);
             File homeDir = new File(context.getFilesDir(), "home");
             File termuxDir = new File(homeDir, ".termux");
             File destinationFile = new File(termuxDir, outputFile);
