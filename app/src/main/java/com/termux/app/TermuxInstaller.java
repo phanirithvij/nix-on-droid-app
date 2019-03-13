@@ -84,10 +84,8 @@ final class TermuxInstaller {
                     final List<Pair<String, String>> symlinks = new ArrayList<>(128);
                     final List<String> executables = new ArrayList<>(128);
 
-                    final String bootstrapArchiveName = determineZipName();
-                    AssetManager assetManager = activity.getAssets();
-
-                    try (ZipInputStream zipInput = new ZipInputStream(assetManager.open(bootstrapArchiveName))) {
+                    final URL zipUrl = determineZipUrl();
+                    try (ZipInputStream zipInput = new ZipInputStream(zipUrl.openStream())) {
                         ZipEntry zipEntry;
                         while ((zipEntry = zipInput.getNextEntry()) != null) {
                             switch (zipEntry.getName()) {
@@ -198,10 +196,10 @@ final class TermuxInstaller {
         }
     }
 
-    /** Get bootstrap zip file name for this systems cpu architecture. */
-    private static String determineZipName() {
+    /** Get bootstrap zip url for this systems cpu architecture. */
+    private static URL determineZipUrl() throws MalformedURLException {
         String archName = determineTermuxArchName();
-        return "bootstrap-" + archName;
+        return new URL("https://nix-on-droid.unboiled.info/bootstrap/bootstrap-" + archName + ".zip");
     }
 
     private static String determineTermuxArchName() {

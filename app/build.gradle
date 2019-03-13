@@ -40,10 +40,3 @@ android {
 dependencies {
     testImplementation 'junit:junit:4.12'
 }
-
-preBuild.doFirst {
-    assert file("./src/main/assets/bootstrap-aarch64").exists()
-    //assert file("./src/main/assets/bootstrap-arm").exists()
-    //assert file("./src/main/assets/bootstrap-i686").exists()
-    //assert file("./src/main/assets/bootstrap-x86_64").exists()
-}
