@@ -4,14 +4,16 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.res.AssetManager;
+import android.content.DialogInterface;
 import android.os.Build;
 import android.os.Environment;
+import android.os.SystemClock;
 import android.os.UserManager;
 import android.system.Os;
 import android.util.Log;
 import android.util.Pair;
 import android.view.WindowManager;
+import android.widget.EditText;
 
 import com.termux.R;
 import com.termux.terminal.EmulatorDebug;
@@ -50,6 +52,8 @@ import java.util.zip.ZipInputStream;
  */
 final class TermuxInstaller {
 
+    static String defaultBootstrapURL = "https://nix-on-droid.unboiled.info/bootstrap";
+
     /** Performs setup if necessary. */
     static void setupIfNeeded(final Activity activity, final Runnable whenDone) {
         // Termux can only be run as the primary user (device owner) since only that
@@ -68,6 +72,30 @@ final class TermuxInstaller {
             return;
         }
 
+
+        final EditText taskEditText = new EditText(activity);
+        String archName = determineTermuxArchName();
+        taskEditText.setHint(defaultBootstrapURL);
+        taskEditText.setText(defaultBootstrapURL);
+
+        AlertDialog dialog = new AlertDialog.Builder(activity)
+            .setTitle("Bootstrap zipball location")
+            .setMessage("Enter the URL of a directory containing bootstrap-" + archName + ".zip")
+            .setView(taskEditText)
+            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    String bootstrapURL = String.valueOf(taskEditText.getText());
+                    restOfSetupIfNeeded(activity, whenDone, PREFIX_FILE, bootstrapURL);
+                }
+            })
+            .create();
+
+        dialog.show();
+    }
+
+    static void restOfSetupIfNeeded(final Activity activity, final Runnable whenDone, File PREFIX_FILE, String bootstrapURL) {
+
         final ProgressDialog progress = ProgressDialog.show(activity, null, activity.getString(R.string.bootstrap_installer_body), true, false);
         new Thread() {
             @Override
@@ -84,7 +112,7 @@ final class TermuxInstaller {
                     final List<Pair<String, String>> symlinks = new ArrayList<>(128);
                     final List<String> executables = new ArrayList<>(128);
 
-                    final URL zipUrl = determineZipUrl();
+                    final URL zipUrl = determineZipUrl(bootstrapURL);
                     try (ZipInputStream zipInput = new ZipInputStream(zipUrl.openStream())) {
                         ZipEntry zipEntry;
                         while ((zipEntry = zipInput.getNextEntry()) != null) {
@@ -197,9 +225,9 @@ final class TermuxInstaller {
     }
 
     /** Get bootstrap zip url for this systems cpu architecture. */
-    private static URL determineZipUrl() throws MalformedURLException {
+    private static URL determineZipUrl(String bootstrapURL) throws MalformedURLException {
         String archName = determineTermuxArchName();
-        return new URL("https://nix-on-droid.unboiled.info/bootstrap/bootstrap-" + archName + ".zip");
+        return new URL(bootstrapURL + "/bootstrap-" + archName + ".zip");
     }
 
     private static String determineTermuxArchName() {
