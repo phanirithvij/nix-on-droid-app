@@ -24,7 +24,13 @@ import com.termux.terminal.EmulatorDebug;
 import com.termux.terminal.TerminalSession;
 import com.termux.terminal.TerminalSession.SessionChangedCallback;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.channels.SelectionKey;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -258,6 +264,71 @@ public final class TermuxService extends Service implements SessionChangedCallba
         }
     }
 
+    static String readlink(String path) {
+        try {
+            Process process = Runtime.getRuntime().exec("readlink " + path);
+            InputStream inputStream = process.getInputStream();
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            String r = bufferedReader.readLine();
+            bufferedReader.close();
+            int i = process.waitFor();
+            Log.i(EmulatorDebug.LOG_TAG, "rl: " + path + " -> " + r + ": " + i);
+            if (i != 0 || r == null || r == "")
+                return null;
+            return r.trim();
+        } catch (IOException ex) {
+            Log.w(EmulatorDebug.LOG_TAG, ex);
+        } catch (InterruptedException ex) {
+            Log.w(EmulatorDebug.LOG_TAG, ex);
+        }
+        return null;
+    }
+
+    // /d/d/c.t.n/f/usr/bin/login -> /d/d/c.t.n/f/usr/nix/v/n/p/p/USERNAME/profile/login
+    // /d/d/c.t.n/f/usr/nix/v/n/p/p/USERNAME/profile/login is broken
+    // /d/d/c.t.n/f/usr/nix/v/n/p/p/USERNAME/profile -> profile-1-link
+    // /d/d/c.t.n/f/usr/nix/v/n/p/p/USERNAME/profile-1-link -> /nix/store/...-user-environment
+    // /nix/store/...-user-environment/bin
+    // /d/d/c.t.n/f/usr/nix/store/...-user-environment/bin -> /nix/store/...-basic-environment/bin
+    // /d/d/c.t.n/f/usr/nix/store/...-basic-environment/bin/login -> /nix/store/...-login/bin/login
+    static String resolve(String path) {
+        Log.d(EmulatorDebug.LOG_TAG, "resolving " + path);
+        String SUBDIR = "/data/data/com.termux.nix/files";
+        File f;
+        if (!path.startsWith(SUBDIR))
+            path = SUBDIR + "/usr/" + path;
+        if (path.contains("//"))
+            path = path.replace("//", "/");
+        f = new File(path);
+        if (f.canExecute() || f.isDirectory())
+            return path;
+        String rl = readlink(path);
+        if (rl != null) {
+            if (rl.startsWith("/"))
+                return resolve(rl);
+            else
+                return resolve(new File(rl).getParent() + "/" + rl);
+        }
+        // This is not a link, but also still not the target. One of the parents is a link!
+        if (!path.startsWith(SUBDIR))
+            return null;
+        String subpath = path;
+        String tail = "";
+        do {
+            f = new File(subpath);
+            String name = f.getName();
+            tail = tail == "" ? name : name + "/" + tail;
+            subpath = f.getParent();
+            rl = readlink(subpath);
+            if (rl != null) {
+                String repl = rl.startsWith("/") ? rl : new File(subpath).getParent() + "/" + rl;
+                return resolve(repl + "/" + tail);
+            }
+        } while (subpath.startsWith(SUBDIR));
+        Log.w(EmulatorDebug.LOG_TAG, "giving up on symlink resolution for " + path);
+        return null;
+    }
+
     TerminalSession createTermSession(String executablePath, String[] arguments, String cwd, boolean failSafe) {
         new File(HOME_PATH).mkdirs();
 
@@ -268,8 +339,14 @@ public final class TermuxService extends Service implements SessionChangedCallba
 
         if (executablePath == null) {
             for (String shellBinary : new String[]{"login", "bash", "zsh"}) {
-                File shellFile = new File(PREFIX_PATH + "/bin/" + shellBinary);
-	        Log.w(EmulatorDebug.LOG_TAG, "sf: " + shellFile + " " + shellFile.canExecute());
+                // java.nio.files is API level 26-27, I want to avoid them
+                String path = PREFIX_PATH + "/bin/" + shellBinary;
+                path = resolve(path);
+                if (path == null)
+                    continue;
+                File shellFile = new File(path);
+
+                Log.w(EmulatorDebug.LOG_TAG, "sf: " + path + " " + shellFile.canExecute());
                 if (shellFile.canExecute()) {
                     executablePath = shellFile.getAbsolutePath();
                     break;
