@@ -15,7 +15,7 @@ android {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 66
-        versionName "0.66_v0.2.0_nix"
+        versionName "0.66_v0.2.1_nix"
         applicationIdSuffix ".nix"
     }
 
