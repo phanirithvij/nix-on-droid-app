@@ -14,8 +14,8 @@ android {
         applicationId "com.termux"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 66
-        versionName "0.66_v0.2.1_nix"
+        versionCode 66022
+        versionName "0.66_v0.2.2_nix"
         applicationIdSuffix ".nix"
     }
 
