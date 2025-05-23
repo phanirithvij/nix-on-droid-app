@@ -1,0 +1,2838 @@
+[
+  {
+    "group": "androidx.activity",
+    "name": "activity",
+    "version": "1.1.0",
+    "artifacts": {
+      "activity-1.1.0.aar": "4f2b35916768032f7d0c20e250e28b29037ed4ce9ebf3da4fcd51bcb0c6067ef",
+      "activity-1.1.0.pom": "3690001fc5a57ad176cacf7a13f56219bffb73b93c7978dbac1e1e5db082d6c0"
+    }
+  },
+  {
+    "group": "androidx.activity",
+    "name": "activity",
+    "version": "1.2.4",
+    "artifacts": {
+      "activity-1.2.4.aar": "ae8e9c7de57e387d2ad90e73f3a5a5dfd502bd4f034c1dccfdb3506d1d2df81a",
+      "activity-1.2.4.module": "20f5634f76717910e5b4299909d6998a8078f106bdb9e15b2dd75fcfc1bd42b5"
+    }
+  },
+  {
+    "group": "androidx.annotation",
+    "name": "annotation",
+    "version": "1.3.0",
+    "artifacts": {
+      "annotation-1.3.0.jar": "97dc45afefe3a1e421da42b8b6e9f90491477c45fc6178203e3a5e8a05ee8553",
+      "annotation-1.3.0.module": "9516c2ae44284ea0bd3d0eade0ee638879b708cbe31e3af92ba96c300604ebc3"
+    }
+  },
+  {
+    "group": "androidx.annotation",
+    "name": "annotation-experimental",
+    "version": "1.1.0",
+    "artifacts": {
+      "annotation-experimental-1.1.0.aar": "0157de61a2064047896a058080f3fd67ba57ad9a94857b3f7a363660243e3f90",
+      "annotation-experimental-1.1.0.module": "0361d1526a4d7501255e19779e09e93cdbd07fee0e2f5c50b7a137432d510119"
+    }
+  },
+  {
+    "group": "androidx.appcompat",
+    "name": "appcompat",
+    "version": "1.1.0",
+    "artifacts": {
+      "appcompat-1.1.0.pom": "340d617121f8ef8e02a6680c8f357aa3e542276d0c8a1cdcb6fd98984b2cb7b9"
+    }
+  },
+  {
+    "group": "androidx.appcompat",
+    "name": "appcompat",
+    "version": "1.2.0",
+    "artifacts": {
+      "appcompat-1.2.0.aar": "3d2131a55a61a777322e2126e0018011efa6339e53b44153eb651b16020cca70",
+      "appcompat-1.2.0.module": "2670902fc6c26047c42e0f60ee34656fa071841db370de958198413b5ab58fc3"
+    }
+  },
+  {
+    "group": "androidx.appcompat",
+    "name": "appcompat",
+    "version": "1.3.1",
+    "artifacts": {
+      "appcompat-1.3.1.aar": "959b1daefe40d5e7eed1022f97730b22bc5fd52e6a6083eba284fa86c2971303",
+      "appcompat-1.3.1.module": "a1cfeb760e51aa3363a72796ed5bed7ba501d94df342f0a9160b67d4f213cc5e"
+    }
+  },
+  {
+    "group": "androidx.appcompat",
+    "name": "appcompat-resources",
+    "version": "1.1.0",
+    "artifacts": {
+      "appcompat-resources-1.1.0.pom": "046011e16cb01b6f14842565661551110ef1b6427483f5d9068493f4c49690f2"
+    }
+  },
+  {
+    "group": "androidx.appcompat",
+    "name": "appcompat-resources",
+    "version": "1.2.0",
+    "artifacts": {
+      "appcompat-resources-1.2.0.aar": "c470297c03ff3de1c3d15dacf0be0cae63abc10b52f021dd07ae28daa3100fe5",
+      "appcompat-resources-1.2.0.module": "75d9865bc6b0f779043b4f6523a944bd2ccb7526f5c1f5ef24624ac78dec3bd3"
+    }
+  },
+  {
+    "group": "androidx.appcompat",
+    "name": "appcompat-resources",
+    "version": "1.3.1",
+    "artifacts": {
+      "appcompat-resources-1.3.1.aar": "e3306cd3e9a19a28a5de5ec3b379580f237c4d81c15c3d795404be9291890a75",
+      "appcompat-resources-1.3.1.module": "757bb47d84171d055fe67cf6b88efc7a42c05bdb673b8a89a1a3c25a589d4848"
+    }
+  },
+  {
+    "group": "androidx.arch.core",
+    "name": "core-common",
+    "version": "2.0.0",
+    "artifacts": {
+      "core-common-2.0.0.pom": "4b6f1d459ddd146b4e85ed6d46e86eb8c2639c5de47904e6db4d698721334220"
+    }
+  },
+  {
+    "group": "androidx.arch.core",
+    "name": "core-common",
+    "version": "2.0.1",
+    "artifacts": {
+      "core-common-2.0.1.pom": "25e8d785ec2c7c99e2b3b4e88d0c0da7083530a7aca80c8583534a92dad93935"
+    }
+  },
+  {
+    "group": "androidx.arch.core",
+    "name": "core-common",
+    "version": "2.1.0",
+    "artifacts": {
+      "core-common-2.1.0.jar": "fe1237bf029d063e7f29fe39aeaf73ef74c8b0a3658486fc29d3c54326653889",
+      "core-common-2.1.0.pom": "83bbb3960eaabc600ac366c94cb59414e441532a1d6aa9388b0b8bfface5cf01"
+    }
+  },
+  {
+    "group": "androidx.arch.core",
+    "name": "core-runtime",
+    "version": "2.1.0",
+    "artifacts": {
+      "core-runtime-2.1.0.aar": "dd77615bd3dd275afb11b62df25bae46b10b4a117cd37943af45bdcbf8755852",
+      "core-runtime-2.1.0.pom": "c0c4ed0160cd2ca18390015de8b392b697c173327c6b2c0947d4e62f6958c05d"
+    }
+  },
+  {
+    "group": "androidx.cardview",
+    "name": "cardview",
+    "version": "1.0.0",
+    "artifacts": {
+      "cardview-1.0.0.aar": "1193c04c22a3d6b5946dae9f4e8c59d6adde6a71b6bd5d87fb99d82dda1afec7",
+      "cardview-1.0.0.pom": "e64ef4e08b58358fe27b599e6fe80a1b153db014c644beee630ab271061c3e6c"
+    }
+  },
+  {
+    "group": "androidx.collection",
+    "name": "collection",
+    "version": "1.0.0",
+    "artifacts": {
+      "collection-1.0.0.pom": "a7913a5275ad68e555d2612ebe8c14c367b153e14ca48a1872a64899020e54ef"
+    }
+  },
+  {
+    "group": "androidx.collection",
+    "name": "collection",
+    "version": "1.1.0",
+    "artifacts": {
+      "collection-1.1.0.jar": "632a0e5407461de774409352940e292a291037724207a787820c77daf7d33b72",
+      "collection-1.1.0.pom": "67e9066ca4acfdc6e3cc508293c31ba0398057ff118e4f70b1e1813c9a3456d1"
+    }
+  },
+  {
+    "group": "androidx.constraintlayout",
+    "name": "constraintlayout",
+    "version": "2.0.1",
+    "artifacts": {
+      "constraintlayout-2.0.1.aar": "ec15b5d4a2eff07888bc1499ce2e2c6efe24c0ed60cc57b08c9dc4b6fd3c2189",
+      "constraintlayout-2.0.1.pom": "e25665eff711bb3f6511e86a143f9f3bd2b46a7fe571bf9e114cfc299c1df307"
+    }
+  },
+  {
+    "group": "androidx.constraintlayout",
+    "name": "constraintlayout-solver",
+    "version": "2.0.1",
+    "artifacts": {
+      "constraintlayout-solver-2.0.1.jar": "b23732edbb3511d937fea1ffef047b0e6c001b50c1921f0d959fc384d706ec6a",
+      "constraintlayout-solver-2.0.1.pom": "81beab01fd168168c6f8428a13359ab3fc2f406740a96f6d9121e807a3baeddb"
+    }
+  },
+  {
+    "group": "androidx.coordinatorlayout",
+    "name": "coordinatorlayout",
+    "version": "1.1.0",
+    "artifacts": {
+      "coordinatorlayout-1.1.0.aar": "44a9e30abf56af1025c52a0af506fee9c4131aa55efda52f9fd9451211c5e8cb",
+      "coordinatorlayout-1.1.0.pom": "a67c52c9ddfaff2ffb2fd4b97cd94fa382e837ea8a5874d029e0a04fa63e5caf"
+    }
+  },
+  {
+    "group": "androidx.core",
+    "name": "core",
+    "version": "1.6.0",
+    "artifacts": {
+      "core-1.6.0.aar": "875dbec888c91b05521575fd180cc08824d2c4d12b10b0261b4f9d6825214ef1",
+      "core-1.6.0.module": "8348e2b5c0c7e283370b85037cec8b32b4acab8d73a7a53235a372446b1387c8"
+    }
+  },
+  {
+    "group": "androidx.cursoradapter",
+    "name": "cursoradapter",
+    "version": "1.0.0",
+    "artifacts": {
+      "cursoradapter-1.0.0.aar": "a81c8fe78815fa47df5b749deb52727ad11f9397da58b16017f4eb2c11e28564",
+      "cursoradapter-1.0.0.pom": "62d95c89850af21030b19f14d5f7ecd6d8bcc9a3014c59002ec99624caac8100"
+    }
+  },
+  {
+    "group": "androidx.customview",
+    "name": "customview",
+    "version": "1.0.0",
+    "artifacts": {
+      "customview-1.0.0.aar": "20e5b8f6526a34595a604f56718da81167c0b40a7a94a57daa355663f2594df2",
+      "customview-1.0.0.pom": "ce9e47b87184f5bd5e139e9becd5b26476d42d78c31bf2fdedc37acb41b9ad49"
+    }
+  },
+  {
+    "group": "androidx.customview",
+    "name": "customview",
+    "version": "1.1.0",
+    "artifacts": {
+      "customview-1.1.0.aar": "01f76ab043770a97b054046f9815717b82ce0355c02967d16c61981359dc189a",
+      "customview-1.1.0.pom": "c814d435f73e9e6d169886d0eb96b5c5361feb48449fbbb315c908c03c588c94"
+    }
+  },
+  {
+    "group": "androidx.databinding",
+    "name": "databinding-common",
+    "version": "7.4.2",
+    "artifacts": {
+      "databinding-common-7.4.2.jar": "9fa21e2030273ee3cb8c4701c341af8cf9359791a3b45b2bc0be07870c03b1c8",
+      "databinding-common-7.4.2.pom": "89cc82214687c0c799af5e493a72c1470b809403a758f6a340f26f4e58fefb3a"
+    }
+  },
+  {
+    "group": "androidx.databinding",
+    "name": "databinding-compiler-common",
+    "version": "7.4.2",
+    "artifacts": {
+      "databinding-compiler-common-7.4.2.jar": "6f7909efb71bad157994d975ecb16c8041a256a9cd2e15bbbd712339efb38e9d",
+      "databinding-compiler-common-7.4.2.pom": "241b428af45da05bbc04b5247a3f966f9e0bfa0d295f104b755b6248508ee37b"
+    }
+  },
+  {
+    "group": "androidx.documentfile",
+    "name": "documentfile",
+    "version": "1.0.0",
+    "artifacts": {
+      "documentfile-1.0.0.aar": "865a061ef2fad16522f8433536b8d47208c46ff7c7745197dfa1eeb481869487",
+      "documentfile-1.0.0.pom": "013288a9317a552706ce625fb24493e8223288529223ec578cf855a5ae9c16e5"
+    }
+  },
+  {
+    "group": "androidx.drawerlayout",
+    "name": "drawerlayout",
+    "version": "1.0.0",
+    "artifacts": {
+      "drawerlayout-1.0.0.aar": "9402442cdc5a43cf62fb14f8cf98c63342d4d9d9b805c8033c6cf7e802749ac1",
+      "drawerlayout-1.0.0.pom": "da6733425a83f5ce850878fa7201082345fed7c668dd58550fdd19c0396c6fa4"
+    }
+  },
+  {
+    "group": "androidx.drawerlayout",
+    "name": "drawerlayout",
+    "version": "1.1.1",
+    "artifacts": {
+      "drawerlayout-1.1.1.aar": "2c5f0dca378eb78ca2c4403f9889c77daa3059302260f26a07fe9f63c08926fe",
+      "drawerlayout-1.1.1.pom": "c12fa903ba53005962a72405f37896608718f41673fc4a62312e4536132f6f45"
+    }
+  },
+  {
+    "group": "androidx.dynamicanimation",
+    "name": "dynamicanimation",
+    "version": "1.0.0",
+    "artifacts": {
+      "dynamicanimation-1.0.0.aar": "ce005162c229bf308d2d5b12fb6cad0874069cbbeaccee63a8193bd08d40de04",
+      "dynamicanimation-1.0.0.pom": "44ce22ee620d28f17301bcc60ad49b69b7d0596c2a87b054ad1e3feac7b4a898"
+    }
+  },
+  {
+    "group": "androidx.fragment",
+    "name": "fragment",
+    "version": "1.2.4",
+    "artifacts": {
+      "fragment-1.2.4.aar": "1dc194942574302bf35dae7b81b82273505ec2d38f81d9258ad5c0448daddd82",
+      "fragment-1.2.4.pom": "ac10f808a89691fff793a1e180125e8651c48b67a36d2b1d6a7ee360287b153b"
+    }
+  },
+  {
+    "group": "androidx.fragment",
+    "name": "fragment",
+    "version": "1.3.6",
+    "artifacts": {
+      "fragment-1.3.6.aar": "12f0831b4f08092d5dda272c1923c11a022ff20ceffed3e801751e21bb8d1c1e",
+      "fragment-1.3.6.module": "a140981a3e65f3cab354652682061d23d19b01e00ee712bc38a5e9b0f69eedcf"
+    }
+  },
+  {
+    "group": "androidx.interpolator",
+    "name": "interpolator",
+    "version": "1.0.0",
+    "artifacts": {
+      "interpolator-1.0.0.aar": "33193135a64fe21fa2c35eec6688f1a76e512606c0fc83dc1b689e37add7732a",
+      "interpolator-1.0.0.pom": "0ddc07cc39699f48ecd9ec894b5830c0f09e22e82959294edf37217224c88b7b"
+    }
+  },
+  {
+    "group": "androidx.legacy",
+    "name": "legacy-support-core-ui",
+    "version": "1.0.0",
+    "artifacts": {
+      "legacy-support-core-ui-1.0.0.pom": "2baaf7f17551765524bd1e4d2f954a2a0178a112039cf549ba8b7d4b41e66931"
+    }
+  },
+  {
+    "group": "androidx.legacy",
+    "name": "legacy-support-core-utils",
+    "version": "1.0.0",
+    "artifacts": {
+      "legacy-support-core-utils-1.0.0.aar": "a7edcf01d5b52b3034073027bc4775b78a4764bb6202bb91d61c829add8dd1c7",
+      "legacy-support-core-utils-1.0.0.pom": "8fd093008b3ee7c06e52c78da2af980a7b47b69b967fa91dad7af466f7a00a38"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-common",
+    "version": "2.0.0",
+    "artifacts": {
+      "lifecycle-common-2.0.0.pom": "04d525073469214d0c99e81aaa875dd548ba32b82945abd8326bc50229df700d"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-common",
+    "version": "2.2.0",
+    "artifacts": {
+      "lifecycle-common-2.2.0.jar": "63898dabf7cfe5ec5d7ed8b8c2564c1427be876e1496ead95c2703cf59d3734b",
+      "lifecycle-common-2.2.0.pom": "cc30a8a2a97d3767bd169b747c078727308096dd3ab7917d80b2f1f42d118bd6"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-common",
+    "version": "2.3.1",
+    "artifacts": {
+      "lifecycle-common-2.3.1.jar": "15848fb56db32f4c7cdc72b324003183d52a4884d6bf09be708ac7f587d139b5",
+      "lifecycle-common-2.3.1.module": "5fb7c8514d8c56cada5e29ef89dc0289e71942ab4cb0b2e6dca137b9dcb8fdd4"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-livedata",
+    "version": "2.0.0",
+    "artifacts": {
+      "lifecycle-livedata-2.0.0.aar": "c82609ced8c498f0a701a30fb6771bb7480860daee84d82e0a81ee86edf7ba39",
+      "lifecycle-livedata-2.0.0.pom": "a84842ffc0f14e518db75c05cc112680a8a4a164fa78395be32d88304a439423"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-livedata-core",
+    "version": "2.2.0",
+    "artifacts": {
+      "lifecycle-livedata-core-2.2.0.aar": "556c1f3af90aa9d7d0d330565adbf6da71b2429148bac91e07c485f4f9abf614",
+      "lifecycle-livedata-core-2.2.0.pom": "aa51621be3817d1f5d21336b0c0525fe96ae899cec656c13d8ea18a51ea32c2f"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-livedata-core",
+    "version": "2.3.1",
+    "artifacts": {
+      "lifecycle-livedata-core-2.3.1.aar": "e55d38c372460f0a03997ddc950c67227511340fd74f8634d99d29653cd81ab1",
+      "lifecycle-livedata-core-2.3.1.module": "b1e095d550d39a7d6c815761d6dbe3fd64eb31a39dc28146e78bbf2c01ba8f41"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-runtime",
+    "version": "2.0.0",
+    "artifacts": {
+      "lifecycle-runtime-2.0.0.pom": "a92a46fa7aec8ac326a5d578734a2d5b63206976996b9e06cae171b35b0ab6de"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-runtime",
+    "version": "2.2.0",
+    "artifacts": {
+      "lifecycle-runtime-2.2.0.aar": "2f866c07a1f33a8c9bb69a9545d4f20b4f0628cd0a155432386d7cb081e1e0bc",
+      "lifecycle-runtime-2.2.0.pom": "7f154066fed1c9162870f728b208352831b3d1f8f23f5d388958a50ca4e9f441"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-runtime",
+    "version": "2.3.1",
+    "artifacts": {
+      "lifecycle-runtime-2.3.1.aar": "dd294f4a689c71ff877fd41f3b67a3a62f7760d44ce420e6130f1fc3569d8f00",
+      "lifecycle-runtime-2.3.1.module": "2a7b90e5049b674b36bccfd68677b3a0b3178b3f7c2ef7ddf618d3895598c4ce"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-viewmodel",
+    "version": "2.2.0",
+    "artifacts": {
+      "lifecycle-viewmodel-2.2.0.aar": "967efab24d6c49dd414a8c0ac4a1cd09b018f0b8bb43b739ad360c4158ebde27",
+      "lifecycle-viewmodel-2.2.0.pom": "aaa3afaa49ff47e2bc9b2389f939d3e8137616c4616684e2dfb53ba8366aa11d"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-viewmodel",
+    "version": "2.3.1",
+    "artifacts": {
+      "lifecycle-viewmodel-2.3.1.aar": "b6db4c274a12ff85a4747e1e6669c7e98aefa2571ace9d1f1a6fa6be417ce838",
+      "lifecycle-viewmodel-2.3.1.module": "a531853dfe316c90b7466d24be94dbe60a60ef54a52c904c86381986202e51f4"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-viewmodel-savedstate",
+    "version": "2.2.0",
+    "artifacts": {
+      "lifecycle-viewmodel-savedstate-2.2.0.aar": "3ce866fb822b20fe2f188f974992869a0a6233fe40acbefcff090d6def5e7f33",
+      "lifecycle-viewmodel-savedstate-2.2.0.pom": "9f31254e547b214257067611f18fc8a3c08f8df9eba634f6e21badc848596db1"
+    }
+  },
+  {
+    "group": "androidx.lifecycle",
+    "name": "lifecycle-viewmodel-savedstate",
+    "version": "2.3.1",
+    "artifacts": {
+      "lifecycle-viewmodel-savedstate-2.3.1.aar": "97137a8af6a31776a14e4866ab808c7c0a791b484bdbc788bbd83e66407564c0",
+      "lifecycle-viewmodel-savedstate-2.3.1.module": "8083710b758ac096891e91f51d91ee56a445b265d7becf230355377327c0418b"
+    }
+  },
+  {
+    "group": "androidx.loader",
+    "name": "loader",
+    "version": "1.0.0",
+    "artifacts": {
+      "loader-1.0.0.aar": "11f735cb3b55c458d470bed9e25254375b518b4b1bad6926783a7026db0f5025",
+      "loader-1.0.0.pom": "c978d550808b47434aa49a63164110a50b55b0bcc6160a93a2e37d5110df8c5e"
+    }
+  },
+  {
+    "group": "androidx.localbroadcastmanager",
+    "name": "localbroadcastmanager",
+    "version": "1.0.0",
+    "artifacts": {
+      "localbroadcastmanager-1.0.0.aar": "e71c328ceef5c4a7d76f2d86df1b65d65fe2acf868b1a4efd84a3f34336186d8",
+      "localbroadcastmanager-1.0.0.pom": "a000041f5a1f79283c5175e1bb60cf3683780f401c6a9d34fbe9751253fa6ff9"
+    }
+  },
+  {
+    "group": "androidx.preference",
+    "name": "preference",
+    "version": "1.1.1",
+    "artifacts": {
+      "preference-1.1.1.aar": "317dcbc38242aea2f6262c06d51b8a22827e98959967edd40f82600a15cb4bff",
+      "preference-1.1.1.pom": "9789dcb6645da154854a140efb87deb853d18f4e837d5f30164acc470902a323"
+    }
+  },
+  {
+    "group": "androidx.print",
+    "name": "print",
+    "version": "1.0.0",
+    "artifacts": {
+      "print-1.0.0.aar": "1d5c7f3135a1bba661fc373fd72e11eb0a4adbb3396787826dd8e4190d5d9edd",
+      "print-1.0.0.pom": "62482c0594841bee24bb996abb6cb7b320a6a3b77dca9f0a0ba4fe3be5530aa7"
+    }
+  },
+  {
+    "group": "androidx.recyclerview",
+    "name": "recyclerview",
+    "version": "1.0.0",
+    "artifacts": {
+      "recyclerview-1.0.0.pom": "8831c06417fab6a9690c25f6e4b347b2e8c03cf6d47337be9c57e75b7fb23e6a"
+    }
+  },
+  {
+    "group": "androidx.recyclerview",
+    "name": "recyclerview",
+    "version": "1.1.0",
+    "artifacts": {
+      "recyclerview-1.1.0.aar": "f0d2b5a67d0a91ee1b1c73ef2b636a81f3563925ddd15a1d4e1c41ec28de7a4f",
+      "recyclerview-1.1.0.pom": "fe321062a6e4e168b9c2b39a1137564c8784a2e5849402729768d5d7c4d972ef"
+    }
+  },
+  {
+    "group": "androidx.savedstate",
+    "name": "savedstate",
+    "version": "1.0.0",
+    "artifacts": {
+      "savedstate-1.0.0.aar": "2510a5619c37579c9ce1a04574faaf323cd0ffe2fc4e20fa8f8f01e5bb402e83",
+      "savedstate-1.0.0.pom": "844d7d22fcea798c78bf5559229daf88ec9cad8136f5eea0a29aa76b3f8fde7c"
+    }
+  },
+  {
+    "group": "androidx.savedstate",
+    "name": "savedstate",
+    "version": "1.1.0",
+    "artifacts": {
+      "savedstate-1.1.0.aar": "d60bbe44c2c08083a17c5dc678a6d6b4d0a2d664858016ab5c049cbea90a63b7",
+      "savedstate-1.1.0.module": "6eea2bc150828c8fcba777e93037038e2ee3ec441c43d6acecf2c5cd9ddc5374"
+    }
+  },
+  {
+    "group": "androidx.test",
+    "name": "core",
+    "version": "1.4.0",
+    "artifacts": {
+      "core-1.4.0.aar": "671284e62e393f16ceae1a99a3a9a07bf1aacda29f8fe7b6b884355ef34c09cf",
+      "core-1.4.0.pom": "33e1c5e91f1a56e29c45d002473748350a90f358cc5a44895d29ef182370ea93"
+    }
+  },
+  {
+    "group": "androidx.test",
+    "name": "monitor",
+    "version": "1.4.0",
+    "artifacts": {
+      "monitor-1.4.0.aar": "46a912a1e175f27a97521af3f50e5af87c22c49275dd2c57c043740012806325",
+      "monitor-1.4.0.pom": "d1f64233f29f0ede076b67e572a2842028a8838dbdab59193e2bfba4ddf26afe"
+    }
+  },
+  {
+    "group": "androidx.test",
+    "name": "monitor",
+    "version": "1.6.1",
+    "artifacts": {
+      "monitor-1.6.1.aar": "2985ce8556989baf7c84342e7f687713c037a39a922e614d1a3ddf1ca3777079",
+      "monitor-1.6.1.pom": "30c0dab3944d63721e2023b27ff35ef343130c9eb7b88f49f331b4e0f2ecfbce"
+    }
+  },
+  {
+    "group": "androidx.test",
+    "name": "runner",
+    "version": "1.4.0",
+    "artifacts": {
+      "runner-1.4.0.aar": "e3f3d8b8d5d4a3edcacbdaa4a31bda2b0e41d3e704b02b3750466a06367ec5a0",
+      "runner-1.4.0.pom": "013b2a295b45a315a8efb1c308f0e185da39c58091a3778a44866c47e8cef4eb"
+    }
+  },
+  {
+    "group": "androidx.test.espresso",
+    "name": "espresso-core",
+    "version": "3.4.0",
+    "artifacts": {
+      "espresso-core-3.4.0.aar": "fa2f4d80afb8c17828d25be75a99f241c28ec9fe971e2b86e09e62a839113282",
+      "espresso-core-3.4.0.pom": "4e3eb0f380cbbaed8008559f1fb0a0cc34531054a25b37e225b75229f05419ef"
+    }
+  },
+  {
+    "group": "androidx.test.espresso",
+    "name": "espresso-idling-resource",
+    "version": "3.4.0",
+    "artifacts": {
+      "espresso-idling-resource-3.4.0.aar": "8845d93979f09fffcc974c0be7d6b6ce4cf4275a4e3ba26bf0f83402e7f0cca5",
+      "espresso-idling-resource-3.4.0.pom": "7881f4f7cc4126815711324f70ab6507da9bcb5aed276372635d8e373ca293f0"
+    }
+  },
+  {
+    "group": "androidx.test.espresso",
+    "name": "espresso-idling-resource",
+    "version": "3.5.1",
+    "artifacts": {
+      "espresso-idling-resource-3.5.1.aar": "84fb8e2f5eda937771bee28582f5d2cfa61b0e9438d02041ca61b81e3dac3c87",
+      "espresso-idling-resource-3.5.1.pom": "c9acad1f91f46e9ef59b000a3e995c9da9d6949dfa77ab8a2dadfb26f295cee1"
+    }
+  },
+  {
+    "group": "androidx.test.ext",
+    "name": "junit",
+    "version": "1.1.3",
+    "artifacts": {
+      "junit-1.1.3.aar": "a97209d75a9a85815fa8934f5a4a320de1163ffe94e2f0b328c0c98a59660690",
+      "junit-1.1.3.pom": "1c0c3b4126bc360f68eb2a00767bfede46fb6d6a750ca99a9142c993644ba4b2"
+    }
+  },
+  {
+    "group": "androidx.test.services",
+    "name": "storage",
+    "version": "1.4.0",
+    "artifacts": {
+      "storage-1.4.0.aar": "35cfbf442abb83e5876cd5deb9de02ae047459f18f831097c5caa76d626bc38a",
+      "storage-1.4.0.pom": "6964cf8b1aca9d9b3de47d27a6362c2d4ce5589fe53e46f02d9cda25f0e34b01"
+    }
+  },
+  {
+    "group": "androidx.tracing",
+    "name": "tracing",
+    "version": "1.0.0",
+    "artifacts": {
+      "tracing-1.0.0.aar": "07b8b6139665b884a162eccf97891ca50f7f56831233bf25168ae04f7b568612",
+      "tracing-1.0.0.module": "fc8b21ebe5fa3a7c96ee098bcdcd00f077ebce73f243fa858e2b0671615f75d8"
+    }
+  },
+  {
+    "group": "androidx.transition",
+    "name": "transition",
+    "version": "1.2.0",
+    "artifacts": {
+      "transition-1.2.0.aar": "a1e059b3bc0b43a58dec0efecdcaa89c82d2bca552ea5bacf6656c46e853157e",
+      "transition-1.2.0.pom": "247f12757acabd706b069445fd31c83c016cc7fe67b0468c582d043ea7d20de1"
+    }
+  },
+  {
+    "group": "androidx.vectordrawable",
+    "name": "vectordrawable",
+    "version": "1.1.0",
+    "artifacts": {
+      "vectordrawable-1.1.0.aar": "46fd633ac01b49b7fcabc263bf098c5a8b9e9a69774d234edcca04fb02df8e26",
+      "vectordrawable-1.1.0.pom": "5b0e2d5b2179e54804785cbc21ce5f473b5e1ddd55a57da482e94dcd39492bb2"
+    }
+  },
+  {
+    "group": "androidx.vectordrawable",
+    "name": "vectordrawable-animated",
+    "version": "1.1.0",
+    "artifacts": {
+      "vectordrawable-animated-1.1.0.aar": "76da2c502371d9c38054df5e2b248d00da87809ed058f3363eae87ce5e2403f8",
+      "vectordrawable-animated-1.1.0.pom": "276a20116b705fb75b9003ee9496c56f6fd3b32375fb232472811eba60a040bd"
+    }
+  },
+  {
+    "group": "androidx.versionedparcelable",
+    "name": "versionedparcelable",
+    "version": "1.1.1",
+    "artifacts": {
+      "versionedparcelable-1.1.1.aar": "57e8d93260d18d5b9007c9eed3c64ad159de90c8609ebfc74a347cbd514535a4",
+      "versionedparcelable-1.1.1.pom": "5f51e65873ca612de3838fa90d2ee95b8d040efd31b9c390a19bf94d615cdb2f"
+    }
+  },
+  {
+    "group": "androidx.viewpager",
+    "name": "viewpager",
+    "version": "1.0.0",
+    "artifacts": {
+      "viewpager-1.0.0.aar": "147af4e14a1984010d8f155e5e19d781f03c1d70dfed02a8e0d18428b8fc8682",
+      "viewpager-1.0.0.pom": "1f72f836339d03c6eb013f65075e76ca87075a577578eb4f95f74a3a5d253128"
+    }
+  },
+  {
+    "group": "androidx.viewpager2",
+    "name": "viewpager2",
+    "version": "1.0.0",
+    "artifacts": {
+      "viewpager2-1.0.0.aar": "e95c0031d4cc247cd48196c6287e58d2cee54d9c79b85afea7c90920330275af",
+      "viewpager2-1.0.0.pom": "4063bca7fe94fe65c98f4168f97ae10e02da0248598ad3ac21c432c7f608a17a"
+    }
+  },
+  {
+    "group": "androidx.window",
+    "name": "window",
+    "version": "1.0.0-alpha09",
+    "artifacts": {
+      "window-1.0.0-alpha09.aar": "edbaafc3a7b0977c138916585d761fe159a521177a30065d676d067edf6571d2",
+      "window-1.0.0-alpha09.module": "7917858bd983f5788eab70847f2f25781cee618808185e8a9573a2f511e61fc4"
+    }
+  },
+  {
+    "group": "com.almworks.sqlite4java",
+    "name": "sqlite4java",
+    "version": "1.0.392",
+    "artifacts": {
+      "sqlite4java-1.0.392.jar": "243a64470fda0e86a6fddeb0af4c7aa9426ce84e68cbfe18d75ee5da4b7e0b92",
+      "sqlite4java-1.0.392.pom": "139552c586a57bf6d98f87d6b7e23fef4db53cf74097be962f7868e3606c79d2"
+    }
+  },
+  {
+    "group": "com.android",
+    "name": "signflinger",
+    "version": "7.4.2",
+    "artifacts": {
+      "signflinger-7.4.2.jar": "1f25f3f9c5d706fd7bc133a45bf35511093197d540635a613d1aae11260e314a",
+      "signflinger-7.4.2.pom": "fc9491f888b18db9facfc4546ffa33e2d97b00659043bc04e469a7a2644a993b"
+    }
+  },
+  {
+    "group": "com.android",
+    "name": "zipflinger",
+    "version": "7.4.2",
+    "artifacts": {
+      "zipflinger-7.4.2.jar": "d82b239494dd262e65cd94b2edf96c9b5cf19c7afbfc84f2601749f50e15c765",
+      "zipflinger-7.4.2.pom": "90c3562dd492f9dccd077ebaad9cc6a64600e2d319f8f71f1c41af0e1cbecf44"
+    }
+  },
+  {
+    "group": "com.android.databinding",
+    "name": "baseLibrary",
+    "version": "7.4.2",
+    "artifacts": {
+      "baseLibrary-7.4.2.jar": "530b2113317ff4d0f69ffdfb49387ba4b86aac169e1c77dff943405b79adcf8b",
+      "baseLibrary-7.4.2.pom": "69b690d2f396bfb9aa7381b7b31eb0ac7c40d4bcab206fe6c6ba04a84a7a01d1"
+    }
+  },
+  {
+    "group": "com.android.tools",
+    "name": "annotations",
+    "version": "30.4.2",
+    "artifacts": {
+      "annotations-30.4.2.jar": "d4ba7dd6055a6f1fd6ddb6dcef4e2096c15908bc7dc6057cb2e06f3a0db949c7",
+      "annotations-30.4.2.pom": "9690298773bb6cf85e5b651a9cefcb00e1a7358e61c1808ff80d88b35f947b1c"
+    }
+  },
+  {
+    "group": "com.android.tools",
+    "name": "common",
+    "version": "30.4.2",
+    "artifacts": {
+      "common-30.4.2.jar": "1adc8a7156526618fe2d3243067a1d61c90c43f6b52515edaafe862bfb156f28",
+      "common-30.4.2.pom": "bd987471108bd7e1555a8bee204f1683c23f2a9c97cda6c53983357034927454"
+    }
+  },
+  {
+    "group": "com.android.tools",
+    "name": "desugar_jdk_libs",
+    "version": "1.1.5",
+    "artifacts": {
+      "desugar_jdk_libs-1.1.5.jar": "52b390b038c5fd62b1ec697bdf5e236ac3286756667350e5466838edea9cb26e",
+      "desugar_jdk_libs-1.1.5.pom": "cae5b199c195a29d6ce7feaff4a0b1eba75d3fde379aec5ca000146232092aec"
+    }
+  },
+  {
+    "group": "com.android.tools",
+    "name": "desugar_jdk_libs_configuration",
+    "version": "1.1.5",
+    "artifacts": {
+      "desugar_jdk_libs_configuration-1.1.5.jar": "4ed1e921fd0ffcfeef2f10ce248f7725b139f593d4bc3549bf694b2e4d3f73a5",
+      "desugar_jdk_libs_configuration-1.1.5.pom": "776abf416de431a4427711ccd0db349692f4aeecc3a7d9bd32b4fb0031d15513"
+    }
+  },
+  {
+    "group": "com.android.tools",
+    "name": "dvlib",
+    "version": "30.4.2",
+    "artifacts": {
+      "dvlib-30.4.2.jar": "d946ad39a40b667c82da87724527815536de62d0db0e8ea333449fdb90509001",
+      "dvlib-30.4.2.pom": "0ea5bc1702fabca28b5873a901f349b967a296f4b3b1cc3ec98bd78c0969efd1"
+    }
+  },
+  {
+    "group": "com.android.tools",
+    "name": "repository",
+    "version": "30.4.2",
+    "artifacts": {
+      "repository-30.4.2.jar": "6c39549d1887a2c7e08b73d66c0c4f103657b06471760fb65858c943756cc940",
+      "repository-30.4.2.pom": "78f65a9ae905da5277bed8aa3d07f1b5fee1af675c9bc44b9fbf211d2b9fc58a"
+    }
+  },
+  {
+    "group": "com.android.tools",
+    "name": "sdk-common",
+    "version": "30.4.2",
+    "artifacts": {
+      "sdk-common-30.4.2.jar": "3c5517b9a65fd33c2a1caeab787306d4e3bb233713e7bb47bacddcd84db2ea0d",
+      "sdk-common-30.4.2.pom": "54d64a6bb887427f3e54272fdde53f7fffefd43c58285fcb50078bf669e346df"
+    }
+  },
+  {
+    "group": "com.android.tools",
+    "name": "sdklib",
+    "version": "30.4.2",
+    "artifacts": {
+      "sdklib-30.4.2.jar": "8778613653c57b429abef58b67f3ef0be16a0b018f8ea442298d78394f422a5f",
+      "sdklib-30.4.2.pom": "714b9be8c26f1008dc443696d1b56e7809051208046a4ef07c1e35c7bc72e957"
+    }
+  },
+  {
+    "group": "com.android.tools.analytics-library",
+    "name": "crash",
+    "version": "30.4.2",
+    "artifacts": {
+      "crash-30.4.2.jar": "aa05293ff6efca0f1687cfaa2deb201984016320b8bd3636a7e51abbf90f2c5d",
+      "crash-30.4.2.pom": "f8022c6e422d5d1e7eb9e02feea4cf6227b47d549addc2afc55c97e3c3bae2fc"
+    }
+  },
+  {
+    "group": "com.android.tools.analytics-library",
+    "name": "protos",
+    "version": "30.4.2",
+    "artifacts": {
+      "protos-30.4.2.jar": "ba0303b9592dcd3891b616063f3eb670485f1a0fd5ad212d92ded505843ea87c",
+      "protos-30.4.2.pom": "6f3032808ec362f7cd3682b9ff01cf9f0b4352cd132e80f4a4293a978e685062"
+    }
+  },
+  {
+    "group": "com.android.tools.analytics-library",
+    "name": "shared",
+    "version": "30.4.2",
+    "artifacts": {
+      "shared-30.4.2.jar": "556ebcfec60be225254d03d19a7d75b707fdc45f71b440f68f48d640a59305d4",
+      "shared-30.4.2.pom": "0a71e280ddf595f6bc0cb120eb1309f3d4adad00f6ade638edf1d1d802c3d5b0"
+    }
+  },
+  {
+    "group": "com.android.tools.analytics-library",
+    "name": "tracker",
+    "version": "30.4.2",
+    "artifacts": {
+      "tracker-30.4.2.jar": "a62bcf8ad3816bdc276999e80c8edd52bdb1a20bfd571d8f5f7e91fce1c74545",
+      "tracker-30.4.2.pom": "769926b67b8c4e72e07129e96e8628b5205e9df6f841734a18302c38cac15d9a"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "aapt2-proto",
+    "version": "7.4.2-8841542",
+    "artifacts": {
+      "aapt2-proto-7.4.2-8841542.jar": "f0b1120092467da103b99e54ba608580809ffca29cebbf89d6458db544dbf253",
+      "aapt2-proto-7.4.2-8841542.module": "15f1c9da421d5f4420dc91e1f5ef1a80bec7ded165b0eb4fb95f2bede2cb1e13"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "aaptcompiler",
+    "version": "7.4.2",
+    "artifacts": {
+      "aaptcompiler-7.4.2.jar": "97c71d265d23e0b02a1d08768eee3aa9e7a0084ff5d0b688019ec8b4b56595c5",
+      "aaptcompiler-7.4.2.module": "0909eb4ba696945619d8589cacf4eb0b60e7db333c998a9bfbb54572ce52f1ed"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "apksig",
+    "version": "7.4.2",
+    "artifacts": {
+      "apksig-7.4.2.jar": "6d6a13a51ac3806c11af5f0967092055e35a67df6a74bff1544d9f5518c5ad55",
+      "apksig-7.4.2.pom": "216889c0ae64e17075503e4a2d56e240118d322e52b7b6c1924e0323cb63404c"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "apkzlib",
+    "version": "7.4.2",
+    "artifacts": {
+      "apkzlib-7.4.2.jar": "79474dbb7505515a7fe081149a119aa4c6580ac4da8dc3ea7d3675956b00fffc",
+      "apkzlib-7.4.2.pom": "5a09426774abb69c4978720fa376022cb2f485b59e733a2332c3d80acfc61327"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "builder",
+    "version": "7.4.2",
+    "artifacts": {
+      "builder-7.4.2.jar": "346ca459bd3b4b3a1148f6c8ad31b69049e84f269132eddd6d28e2d513dd360e",
+      "builder-7.4.2.module": "8404059bdd09e8081d6cbdb945c6e0ca28d63a7370cd036fe46a541e7b0fb74e"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "builder-model",
+    "version": "7.4.2",
+    "artifacts": {
+      "builder-model-7.4.2.jar": "90a8824057fd613078a8da42db0c5b0ea1cfaaf08f7271087d5db4469167ba86",
+      "builder-model-7.4.2.module": "22c6992076018d85e0445fc3c3a9c93fea52b07ffef00af5f640ad07f47da89d"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "builder-test-api",
+    "version": "7.4.2",
+    "artifacts": {
+      "builder-test-api-7.4.2.jar": "29581952494063bdef1f004accd8632be76b17fd9ebfbc0ce312ac4bcdfd9914",
+      "builder-test-api-7.4.2.module": "e96d047fea4c96eee0eab4df1a91f59bab0d6b8caf6e3a69d3791afda50cb96f"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "bundletool",
+    "version": "1.11.4",
+    "artifacts": {
+      "bundletool-1.11.4.jar": "27f985038e020997c7d0c23a6cdbb5b3d1de9d091f926748deeb265aa62aae25",
+      "bundletool-1.11.4.pom": "9489d8e3ee1230a06a2d77d45f2d7a0fb786f737630a318d303991d7a1b89f11"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "gradle",
+    "version": "7.4.2",
+    "artifacts": {
+      "gradle-7.4.2.jar": "d426478af963bd2276feb840fc97b8590edb1392670f587e838fd63f829fbd24",
+      "gradle-7.4.2.module": "e186e823b7bf8286d7573d534f7a3562eb11bb45688dfcdfb9f1878ac00c115e"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "gradle-api",
+    "version": "7.4.2",
+    "artifacts": {
+      "gradle-api-7.4.2.jar": "8e3666641b5927851b830a8ab80ef90ccec3780305c7cc4e6972291114404aeb",
+      "gradle-api-7.4.2.module": "6bd9ebcd86d7080e6f52567478d605f620e42ae543e07c92998fb402af800ee2"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "gradle-settings-api",
+    "version": "7.4.2",
+    "artifacts": {
+      "gradle-settings-api-7.4.2.jar": "02608b8ea217181add353bfa31f56bed8fb2ae6b5cbea7bec772282d463e4b62",
+      "gradle-settings-api-7.4.2.module": "8a9a0767ffa27cf2f1505c5ae3e67480fee52b1f18328765fde8c8ff3eeff8a6"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "manifest-merger",
+    "version": "30.4.2",
+    "artifacts": {
+      "manifest-merger-30.4.2.jar": "d98b6a1d00362431f84a4a8bcba142f8dd4010a1913a820346960179cb084d76",
+      "manifest-merger-30.4.2.module": "1b89efe783ab269430e77e4b06eb5347be920acbf9ea261ee60f8a2fb0d6f1f8"
+    }
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "transform-api",
+    "version": "2.0.0-deprecated-use-gradle-api",
+    "artifacts": {
+      "transform-api-2.0.0-deprecated-use-gradle-api.jar": "e8b4151ae1679f1abe7a14ee371ac9b3c651ae7b63290d1f586bdd0f78face9a",
+      "transform-api-2.0.0-deprecated-use-gradle-api.pom": "d49d179f707d3f3a00b2a7d36136b54aa8d44fa22770703cd82fe52fb39e22eb"
+    }
+  },
+  {
+    "group": "com.android.tools.build.jetifier",
+    "name": "jetifier-core",
+    "version": "1.0.0-beta10",
+    "artifacts": {
+      "jetifier-core-1.0.0-beta10.jar": "26abb4a13927d9062169c504c9e94fe80e9ae3a4f7b5ab8875ab007536a91f5e",
+      "jetifier-core-1.0.0-beta10.module": "f0917589a42d276163f10040ab5842e91883dcbdb1d48bfd1f1fcaa72c1ca7b7"
+    }
+  },
+  {
+    "group": "com.android.tools.build.jetifier",
+    "name": "jetifier-processor",
+    "version": "1.0.0-beta10",
+    "artifacts": {
+      "jetifier-processor-1.0.0-beta10.jar": "c5067a7b928237a1271a5e9cb5710e9f80b4973293945bc51e3a4c864ea4bfed",
+      "jetifier-processor-1.0.0-beta10.module": "36c25576b19993df360170528cc62b7246c37776d6158154a67cdf8fc2d58e13"
+    }
+  },
+  {
+    "group": "com.android.tools.ddms",
+    "name": "ddmlib",
+    "version": "30.4.2",
+    "artifacts": {
+      "ddmlib-30.4.2.jar": "7157fafd4932de9e78737972cbd55eade7ba15e85fe3f522ca939af74b5cc489",
+      "ddmlib-30.4.2.pom": "5ab78c03633d9b2d1129b7d9bb404b3f29d4fbef703c3015bb89f093ce615d2d"
+    }
+  },
+  {
+    "group": "com.android.tools.layoutlib",
+    "name": "layoutlib-api",
+    "version": "30.4.2",
+    "artifacts": {
+      "layoutlib-api-30.4.2.jar": "6b668eb1875462d558d5130061321b504385a69c4c1303036da4793768ed592b",
+      "layoutlib-api-30.4.2.pom": "ac69bf2780f4c603be062f5ef67e70f58f04e7160d411aa648c0ce116ee1dfdb"
+    }
+  },
+  {
+    "group": "com.android.tools.lint",
+    "name": "lint-model",
+    "version": "30.4.2",
+    "artifacts": {
+      "lint-model-30.4.2.jar": "315a24f47cc7b98d58c582e5e1bb490673301ecdf6b906d7170284c39f462c1b",
+      "lint-model-30.4.2.pom": "a6d56ef2a0099defd70e5623f3d551d804a4680df37e14ed17f60f283a406dbe"
+    }
+  },
+  {
+    "group": "com.android.tools.lint",
+    "name": "lint-typedef-remover",
+    "version": "30.4.2",
+    "artifacts": {
+      "lint-typedef-remover-30.4.2.jar": "26c9384cd0cc727c0985097baf4fbcd90d556e06bb0f586c175ca9912fbc66ff",
+      "lint-typedef-remover-30.4.2.pom": "5b2af21e50aebb6e04b7b0b6af261c2acc866a799c64553d40ccaa12629e6eee"
+    }
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-device-provider-ddmlib-proto",
+    "version": "30.4.2",
+    "artifacts": {
+      "android-device-provider-ddmlib-proto-30.4.2.jar": "332794db1e7702c9689c8075532f235cccbf57d70aba29cbd7d378e781bad37f",
+      "android-device-provider-ddmlib-proto-30.4.2.pom": "957707f0b63952377ec5e7250b37f6dbbd110d1652257766300c7373bda0e20e"
+    }
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-device-provider-gradle-proto",
+    "version": "30.4.2",
+    "artifacts": {
+      "android-device-provider-gradle-proto-30.4.2.jar": "d8e9cdd6075752ed88422a5c37324d9aa6a2a0ea79abcbc61dcc89b8e47f8e98",
+      "android-device-provider-gradle-proto-30.4.2.pom": "5b446502f4893966fa39a666f7785151fced62f52ec339e30d4ac3d9661ab44e"
+    }
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-host-additional-test-output-proto",
+    "version": "30.4.2",
+    "artifacts": {
+      "android-test-plugin-host-additional-test-output-proto-30.4.2.jar": "e9ca7656307bff316ca4612a31e996b3e4bb3ca5471248e99add426ffd759936",
+      "android-test-plugin-host-additional-test-output-proto-30.4.2.pom": "5b911737fd46e922c6e839b31746f7b4d6604f7b3f95ca0dbf2fd17c534f5093"
+    }
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-host-coverage-proto",
+    "version": "30.4.2",
+    "artifacts": {
+      "android-test-plugin-host-coverage-proto-30.4.2.jar": "2f865cb722be65f8772b218afef4381a574506359b8fed792c077b40202ef210",
+      "android-test-plugin-host-coverage-proto-30.4.2.pom": "e1bd89993e26aab5f7aadde5c9bc77c7cb355f68d709886cdee692692f8a2a19"
+    }
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-host-retention-proto",
+    "version": "30.4.2",
+    "artifacts": {
+      "android-test-plugin-host-retention-proto-30.4.2.jar": "b05e6429a93aa548d1ddc8b3a23affad850a7ac7a7424074517bf42c0b76f110",
+      "android-test-plugin-host-retention-proto-30.4.2.pom": "9fb9bc4a195b96d3818c7b579f4c8222e918c54762f5367947a05d4754ed6642"
+    }
+  },
+  {
+    "group": "com.android.tools.utp",
+    "name": "android-test-plugin-result-listener-gradle-proto",
+    "version": "30.4.2",
+    "artifacts": {
+      "android-test-plugin-result-listener-gradle-proto-30.4.2.jar": "d4fd8996ac9a03ee65d1b1823ebd6b70fb0c9b07252a6cd2a38614835b256707",
+      "android-test-plugin-result-listener-gradle-proto-30.4.2.pom": "48f67c912635d2f354330715c4e890793b5cf73de23d4fea851331fed29610a6"
+    }
+  },
+  {
+    "group": "com.atlassian.commonmark",
+    "name": "commonmark",
+    "version": "0.13.0",
+    "artifacts": {
+      "commonmark-0.13.0.jar": "fd38aecef680649894ffd7b434e10081fc609e260c63e16c4323a3eaa2a9f096",
+      "commonmark-0.13.0.pom": "80896dee93d2f238face877b9b2b70119254ae41e17c9ff092253897c1f8ad61"
+    }
+  },
+  {
+    "group": "com.atlassian.commonmark",
+    "name": "commonmark-ext-gfm-strikethrough",
+    "version": "0.13.0",
+    "artifacts": {
+      "commonmark-ext-gfm-strikethrough-0.13.0.jar": "5f3ad6d147eeab88f99b4f0f7be42969e1e876d4d3b851abd57a71b4af80ea6f",
+      "commonmark-ext-gfm-strikethrough-0.13.0.pom": "0c4e82776955e201f71e0b2bde48899b7866ab1b344970498b8ca68000e76d85"
+    }
+  },
+  {
+    "group": "com.atlassian.commonmark",
+    "name": "commonmark-parent",
+    "version": "0.13.0",
+    "artifacts": {
+      "commonmark-parent-0.13.0.pom": "98860a270320a895afa46d7fe4cc7d70e5be5124c190431caa90223cda3a8e28"
+    }
+  },
+  {
+    "group": "com.atlassian.pom",
+    "name": "base-pom",
+    "version": "5.0.13",
+    "artifacts": {
+      "base-pom-5.0.13.pom": "08dd21045fdf61048bef38ffec56e21eeb25c6e2d844fc09f6b956e093737543"
+    }
+  },
+  {
+    "group": "com.atlassian.pom",
+    "name": "central-pom",
+    "version": "5.0.13",
+    "artifacts": {
+      "central-pom-5.0.13.pom": "ce28456d366507ca0f91022942a05e388fd98f862a6d8db3105c5c4497a74ce5"
+    }
+  },
+  {
+    "group": "com.google.android",
+    "name": "annotations",
+    "version": "4.1.1.4",
+    "artifacts": {
+      "annotations-4.1.1.4.jar": "ba734e1e84c09d615af6a09d33034b4f0442f8772dec120efb376d86a565ae15",
+      "annotations-4.1.1.4.pom": "e4bb54753c36a27a0e5d70154a5034fedd8feac4282295034bfd483d6c7aae78"
+    }
+  },
+  {
+    "group": "com.google.android.material",
+    "name": "material",
+    "version": "1.4.0",
+    "artifacts": {
+      "material-1.4.0.aar": "80a0e02abf8a8a8cbe5716e06ac80cd683840b9f5b0d2f19a2a279e47f2895ee",
+      "material-1.4.0.module": "91eecf4b1272aacc4fdb41fefaa6324cbd36218c51866d300dcf237670e4e0cc"
+    }
+  },
+  {
+    "group": "com.google.api.grpc",
+    "name": "proto-google-common-protos",
+    "version": "2.0.1",
+    "artifacts": {
+      "proto-google-common-protos-2.0.1.jar": "5ce71656118618731e34a5d4c61aa3a031be23446dc7de8b5a5e77b66ebcd6ef",
+      "proto-google-common-protos-2.0.1.pom": "8b62bfd85d693ebcffd828232af7424f34fd212c5e28e5ed99b0dc5d2bc7d4f5"
+    }
+  },
+  {
+    "group": "com.google.auto",
+    "name": "auto-parent",
+    "version": "6",
+    "artifacts": {
+      "auto-parent-6.pom": "05f740c6648165db00cf618dd56c200c4725e358e6d54f5853e0bec15734ea0a"
+    }
+  },
+  {
+    "group": "com.google.auto.value",
+    "name": "auto-value-annotations",
+    "version": "1.10.1",
+    "artifacts": {
+      "auto-value-annotations-1.10.1.jar": "a4fe0a211925e938a8510d741763ee1171a11bf931f5891ef4d4ee84fca72be2",
+      "auto-value-annotations-1.10.1.pom": "9fbacc8694d1904dfb4d5af1e4a5460fd64c1ca9d0049d1814542cd2ad28b047"
+    }
+  },
+  {
+    "group": "com.google.auto.value",
+    "name": "auto-value-annotations",
+    "version": "1.6.2",
+    "artifacts": {
+      "auto-value-annotations-1.6.2.jar": "b48b04ddba40e8ac33bf036f06fc43995fc5084bd94bdaace807ce27d3bea3fb",
+      "auto-value-annotations-1.6.2.pom": "1c76cd462fc96e7aa96dc70ce82f0d54063d6df16db35c9c7d9cc0d1a99d3fff"
+    }
+  },
+  {
+    "group": "com.google.auto.value",
+    "name": "auto-value-parent",
+    "version": "1.10.1",
+    "artifacts": {
+      "auto-value-parent-1.10.1.pom": "f72da3ae18bce18b8744cd7233aa834a32d3bd1e0b453b15f6dba33f7973cfe9"
+    }
+  },
+  {
+    "group": "com.google.auto.value",
+    "name": "auto-value-parent",
+    "version": "1.6.2",
+    "artifacts": {
+      "auto-value-parent-1.6.2.pom": "27b640c82179f5cff62009c0b72033d9bc60f60e9902a66802274b7fe37fc81c"
+    }
+  },
+  {
+    "group": "com.google.code.findbugs",
+    "name": "jsr305",
+    "version": "1.3.9",
+    "artifacts": {
+      "jsr305-1.3.9.jar": "905721a0eea90a81534abb7ee6ef4ea2e5e645fa1def0a5cd88402df1b46c9ed",
+      "jsr305-1.3.9.pom": "feab9191311c3d7aeef2b66d6064afc80d3d1d52d980fb07ae43c78c987ba93a"
+    }
+  },
+  {
+    "group": "com.google.code.findbugs",
+    "name": "jsr305",
+    "version": "3.0.2",
+    "artifacts": {
+      "jsr305-3.0.2.jar": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+      "jsr305-3.0.2.pom": "19889dbdf1b254b2601a5ee645b8147a974644882297684c798afe5d63d78dfe"
+    }
+  },
+  {
+    "group": "com.google.code.gson",
+    "name": "gson",
+    "version": "2.8.6",
+    "artifacts": {
+      "gson-2.8.6.pom": "2174415a647332d30fda04bd1cfc708a3ecc84eaf7517f596188d8244e103911"
+    }
+  },
+  {
+    "group": "com.google.code.gson",
+    "name": "gson",
+    "version": "2.8.9",
+    "artifacts": {
+      "gson-2.8.9.jar": "d3999291855de495c94c743761b8ab5176cfeabe281a5ab0d8e8d45326fd703e",
+      "gson-2.8.9.pom": "afded6e6a690fbf3ad4ae65ada397f0a90a5f630b303d1b741b9c97926fdd4de"
+    }
+  },
+  {
+    "group": "com.google.code.gson",
+    "name": "gson-parent",
+    "version": "2.8.6",
+    "artifacts": {
+      "gson-parent-2.8.6.pom": "3736463859ec19267295e894940ae82a8f684413031122fe35ce7cff7e30a774"
+    }
+  },
+  {
+    "group": "com.google.code.gson",
+    "name": "gson-parent",
+    "version": "2.8.9",
+    "artifacts": {
+      "gson-parent-2.8.9.pom": "b16e026e63427c1972ad0fc68703ec379b1576e411ba49c32fa9a31ab0bbcffb"
+    }
+  },
+  {
+    "group": "com.google.crypto.tink",
+    "name": "tink",
+    "version": "1.3.0-rc2",
+    "artifacts": {
+      "tink-1.3.0-rc2.jar": "3aa576b5671d0e26d83d7fdb7186810b5672f00bf8e72184260bcc7c2d7dc07a",
+      "tink-1.3.0-rc2.pom": "5b9a11c11183d011de9a9a5490962d78a4d4bfe7579b0c5be4afb18a222e3f41"
+    }
+  },
+  {
+    "group": "com.google.dagger",
+    "name": "dagger",
+    "version": "2.28.3",
+    "artifacts": {
+      "dagger-2.28.3.jar": "f1dd23f8ae34a8e91366723991ead0d6499d1a3e9163ce550c200b02d76a872b",
+      "dagger-2.28.3.pom": "265ba959a8e13c3a06133f04b539169c1018daffd4d33f53c453ab4cb386f570"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_annotations",
+    "version": "2.1.3",
+    "artifacts": {
+      "error_prone_annotations-2.1.3.jar": "03d0329547c13da9e17c634d1049ea2ead093925e290567e1a364fd6b1fc7ff8",
+      "error_prone_annotations-2.1.3.pom": "958cb81c393cb2996c3c6a9e867a4a4be8ddc43391672a9e4e4eba51ac7237f5"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_annotations",
+    "version": "2.18.0",
+    "artifacts": {
+      "error_prone_annotations-2.18.0.jar": "9e6814cb71816988a4fd1b07a993a8f21bb7058d522c162b1de849e19bea54ae",
+      "error_prone_annotations-2.18.0.pom": "920135797dcca5917b5a5c017642a58d340a4cd1bcd12f56f892a5663bd7bddc"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_annotations",
+    "version": "2.3.1",
+    "artifacts": {
+      "error_prone_annotations-2.3.1.pom": "3edce6b711ba368efe16b9b7aacb0214fbd648414cb9b965953a2e7ed89a819a"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_annotations",
+    "version": "2.3.4",
+    "artifacts": {
+      "error_prone_annotations-2.3.4.pom": "1326738a4b4f7ccacf607b866a11fb85193ef60f6a59461187ce7265f9be5bed"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_annotations",
+    "version": "2.4.0",
+    "artifacts": {
+      "error_prone_annotations-2.4.0.jar": "5f2a0648230a662e8be049df308d583d7369f13af683e44ddf5829b6d741a228",
+      "error_prone_annotations-2.4.0.pom": "7ea54bfa260ea03d4f084158d284ac8737a5507f77c80f9634da8bdcc018474f"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_parent",
+    "version": "2.1.3",
+    "artifacts": {
+      "error_prone_parent-2.1.3.pom": "d52a2616a1389fce951de0e97a780b88f1bdf0c947b315a76fd47cd6bbfb239b"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_parent",
+    "version": "2.18.0",
+    "artifacts": {
+      "error_prone_parent-2.18.0.pom": "47f22e99c7bf466391def16f8377985e5d3ba6f5bbcf65853644805513e15fad"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_parent",
+    "version": "2.3.1",
+    "artifacts": {
+      "error_prone_parent-2.3.1.pom": "767525d9a81129cd081968382980336327be4162b1e2251a182911daa733c123"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_parent",
+    "version": "2.3.4",
+    "artifacts": {
+      "error_prone_parent-2.3.4.pom": "40495b437a60d2398f0fdfc054b89d9c394a82347a274a0721c2e950a4302186"
+    }
+  },
+  {
+    "group": "com.google.errorprone",
+    "name": "error_prone_parent",
+    "version": "2.4.0",
+    "artifacts": {
+      "error_prone_parent-2.4.0.pom": "dedda0cda4da752ac80de0d21c829cd3fb919bd2256814260eb3abce2f4e869a"
+    }
+  },
+  {
+    "group": "com.google.flatbuffers",
+    "name": "flatbuffers-java",
+    "version": "1.12.0",
+    "artifacts": {
+      "flatbuffers-java-1.12.0.jar": "3f8c088b4dd04a9858721f2e162508c94db0dd86f961e306ee63ef2eda871bf7",
+      "flatbuffers-java-1.12.0.pom": "cb226baf546260770f21e8152a6aa88ba15230d739f750df480f2a668d43e0eb"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "failureaccess",
+    "version": "1.0.1",
+    "artifacts": {
+      "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
+      "failureaccess-1.0.1.pom": "e96042ce78fecba0da2be964522947c87b40a291b5fd3cd672a434924103c4b9"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava",
+    "version": "24.1-jre",
+    "artifacts": {
+      "guava-24.1-jre.jar": "31bfe27bdf9cba00cb4f3691136d3bc7847dfc87bfe772ca7a9eb68ff31d79f5",
+      "guava-24.1-jre.pom": "c37abec22f7e524d7e4f31766a2ff2511b1ff4fc2dd6dc3a8e2d773fcfdb7f45"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava",
+    "version": "30.1-jre",
+    "artifacts": {
+      "guava-30.1-jre.jar": "e6dd072f9d3fe02a4600688380bd422bdac184caf6fe2418cfdd0934f09432aa",
+      "guava-30.1-jre.pom": "9646d4cd50094d4abe507e555d3f76d77e34a4c5566b22fb130ef55d4ebbe927"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava",
+    "version": "31.1-jre",
+    "artifacts": {
+      "guava-31.1-jre.jar": "a42edc9cab792e39fe39bb94f3fca655ed157ff87a8af78e1d6ba5b07c4a00ab",
+      "guava-31.1-jre.pom": "9193d07bf4f660108d7358e58b27d21b44e34e80d6734e98e21916376f270de2"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava-parent",
+    "version": "24.1-jre",
+    "artifacts": {
+      "guava-parent-24.1-jre.pom": "671274737aeb52133069ae3c94fdb0717dc1f33c940252a0efc73ce8f57c7a55"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava-parent",
+    "version": "26.0-android",
+    "artifacts": {
+      "guava-parent-26.0-android.pom": "f8698ab46ca996ce889c1afc8ca4f25eb8ac6b034dc898d4583742360016cc04"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava-parent",
+    "version": "30.1-jre",
+    "artifacts": {
+      "guava-parent-30.1-jre.pom": "e2afb747ebc4fe2328d6a90fa88c5d8a83bb1e32061bb9b10ff43e2c47ad6e73"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "guava-parent",
+    "version": "31.1-jre",
+    "artifacts": {
+      "guava-parent-31.1-jre.pom": "4439626783b44ad25ef05ff07621dd4bb796cc4eb4f2966a4a461fea4130e0fc"
+    }
+  },
+  {
+    "group": "com.google.guava",
+    "name": "listenablefuture",
+    "version": "9999.0-empty-to-avoid-conflict-with-guava",
+    "artifacts": {
+      "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
+      "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom": "18d4b1db26153d4e55079ce1f76bb1fe05cdb862ef9954a88cbcc4ff38b8679b"
+    }
+  },
+  {
+    "group": "com.google.j2objc",
+    "name": "j2objc-annotations",
+    "version": "1.1",
+    "artifacts": {
+      "j2objc-annotations-1.1.jar": "2994a7eb78f2710bd3d3bfb639b2c94e219cedac0d4d084d516e78c16dddecf6",
+      "j2objc-annotations-1.1.pom": "f0c98c571e93a7cb4dd18df0fa308f0963e7a0620ac2d4244e61e709d03ad6be"
+    }
+  },
+  {
+    "group": "com.google.j2objc",
+    "name": "j2objc-annotations",
+    "version": "1.3",
+    "artifacts": {
+      "j2objc-annotations-1.3.jar": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b",
+      "j2objc-annotations-1.3.pom": "5faca824ba115bee458730337dfdb2fcea46ba2fd774d4304edbf30fa6a3f055"
+    }
+  },
+  {
+    "group": "com.google.jimfs",
+    "name": "jimfs",
+    "version": "1.1",
+    "artifacts": {
+      "jimfs-1.1.jar": "c4828e28d7c0a930af9387510b3bada7daa5c04d7c25a75c7b8b081f1c257ddd",
+      "jimfs-1.1.pom": "efa86e5cd922f17b472fdfcae57234d8d4ac3e148b6250737dfce454af7a7a44"
+    }
+  },
+  {
+    "group": "com.google.jimfs",
+    "name": "jimfs-parent",
+    "version": "1.1",
+    "artifacts": {
+      "jimfs-parent-1.1.pom": "c71555751e57e0ef912870e8ac9625ae782502a6a5b9c19ccf83b2a97d8b26bd"
+    }
+  },
+  {
+    "group": "com.google.protobuf",
+    "name": "protobuf-bom",
+    "version": "3.17.2",
+    "artifacts": {
+      "protobuf-bom-3.17.2.pom": "f36e5bc0bc0e6b0151fa83b17cd94dcb5a6b8c9e1b1499dc086edca99e99b805"
+    }
+  },
+  {
+    "group": "com.google.protobuf",
+    "name": "protobuf-java",
+    "version": "3.17.2",
+    "artifacts": {
+      "protobuf-java-3.17.2.jar": "cf697452fbe7f6bdfdf65043797a16cd627b1dd4248be4b572fcb73f8c032cc0",
+      "protobuf-java-3.17.2.pom": "721eef84bdd288eda3562af626ee2cb3426beaf58c5369710b54f51d484568fa"
+    }
+  },
+  {
+    "group": "com.google.protobuf",
+    "name": "protobuf-java-util",
+    "version": "3.17.2",
+    "artifacts": {
+      "protobuf-java-util-3.17.2.jar": "849925333aac23f46f9a154a52e441117017d5673e04e5636993bcc3cf1924d9",
+      "protobuf-java-util-3.17.2.pom": "a5d6d2c74cf83c8ef4be4532b86f15ecb1dafbaad64e6da427c090dd4bf6c7bd"
+    }
+  },
+  {
+    "group": "com.google.protobuf",
+    "name": "protobuf-parent",
+    "version": "3.17.2",
+    "artifacts": {
+      "protobuf-parent-3.17.2.pom": "8d97664bbc2cf853baa89c28e07082e2e4ae7c4d2dca89a63b28bda093cdee86"
+    }
+  },
+  {
+    "group": "com.google.testing.platform",
+    "name": "core-proto",
+    "version": "0.0.8-alpha08",
+    "artifacts": {
+      "core-proto-0.0.8-alpha08.jar": "3920575a74f1437975cdf45276f9b75e7ae41bafb8deb1d60e7d639f21d1b06c",
+      "core-proto-0.0.8-alpha08.pom": "92ef271855871c1d46329138ca5e2bc6926f1d9be0607d2ffc0ca5fef25c7a0b"
+    }
+  },
+  {
+    "group": "com.googlecode.juniversalchardet",
+    "name": "juniversalchardet",
+    "version": "1.0.3",
+    "artifacts": {
+      "juniversalchardet-1.0.3.jar": "757bfe906193b8b651e79dc26cd67d6b55d0770a2cdfb0381591504f779d4a76",
+      "juniversalchardet-1.0.3.pom": "7846399b35c7cd642a9b3a000c3e2d62d04eb37a4547b6933cc8b18bcc2f086b"
+    }
+  },
+  {
+    "group": "com.ibm.icu",
+    "name": "icu4j",
+    "version": "72.1",
+    "artifacts": {
+      "icu4j-72.1.jar": "3df572b240a68d13b5cd778ad2393e885d26411434cd8f098ac5987ea2e64ce3",
+      "icu4j-72.1.pom": "3def2b29af4a19ad805cb153056925a89a903f92fbee1adee12ed2fc14c44ee8"
+    }
+  },
+  {
+    "group": "com.squareup",
+    "name": "javapoet",
+    "version": "1.10.0",
+    "artifacts": {
+      "javapoet-1.10.0.jar": "20ef4b82e43ff7c652281a21313cf3b941092467add3fa73509c26f6969efdab",
+      "javapoet-1.10.0.pom": "1690340a222279f2cbadf373e88826fa20f7f3cc3ec0252f36818fed32701ab1"
+    }
+  },
+  {
+    "group": "com.squareup",
+    "name": "javawriter",
+    "version": "2.1.1",
+    "artifacts": {
+      "javawriter-2.1.1.jar": "f699823d0081f69cbb676c1845ea222e0ada79bc88a53e5d22d8bd02d328f57e",
+      "javawriter-2.1.1.pom": "d47fc646324c22c66f2b0e0e743c850dde9a51990c53925e7501d960f2e8df84"
+    }
+  },
+  {
+    "group": "com.squareup",
+    "name": "javawriter",
+    "version": "2.5.0",
+    "artifacts": {
+      "javawriter-2.5.0.jar": "fcfb09fb0ea0aa97d3cfe7ea792398081348e468f126b3603cb3803f240197f0",
+      "javawriter-2.5.0.pom": "e1abd7f1116cf5e0c59947693e2189208ec94296b2a3394c959e3511d399a7b0"
+    }
+  },
+  {
+    "group": "com.sun.activation",
+    "name": "all",
+    "version": "1.2.0",
+    "artifacts": {
+      "all-1.2.0.pom": "1d8518e3ac7532a104e4f7be77def37c982e530723c6bdb3d67708cce2b0c2c4"
+    }
+  },
+  {
+    "group": "com.sun.activation",
+    "name": "all",
+    "version": "1.2.1",
+    "artifacts": {
+      "all-1.2.1.pom": "360883bf64486ecef161b8f282f6503536dd1a670d53a0a871c8fb20170e6795"
+    }
+  },
+  {
+    "group": "com.sun.activation",
+    "name": "javax.activation",
+    "version": "1.2.0",
+    "artifacts": {
+      "javax.activation-1.2.0.jar": "993302b16cd7056f21e779cc577d175a810bb4900ef73cd8fbf2b50f928ba9ce",
+      "javax.activation-1.2.0.pom": "f879b6e945854c6900b0dbee1c8384d7ab3de7e157fd7ac84937405c416d2a5e"
+    }
+  },
+  {
+    "group": "com.sun.istack",
+    "name": "istack-commons",
+    "version": "3.0.8",
+    "artifacts": {
+      "istack-commons-3.0.8.pom": "a0f0517e8512f0fbcc7b8295c12f6566a3d0c2d86d655639dc662ef8c0c7ebe5"
+    }
+  },
+  {
+    "group": "com.sun.istack",
+    "name": "istack-commons-runtime",
+    "version": "3.0.8",
+    "artifacts": {
+      "istack-commons-runtime-3.0.8.jar": "4ffabb06be454a05e4398e20c77fa2b6308d4b88dfbef7ca30a76b5b7d5505ef",
+      "istack-commons-runtime-3.0.8.pom": "c2e014d34cb84ed287d064986c45c305a4124228a7337eccf6c421d14d708f1c"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind",
+    "name": "jaxb-bom-ext",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-bom-ext-2.3.2.pom": "1a7dec2b27e7e055744cdb8cf1b90def4fd473acd1b804eff098139358959bd7"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-parent",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-parent-2.3.2.pom": "20dd6dc34ab7549ac40da1d82e92222ec4347ad0ec0cb118ef6c5703bed53a18"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-runtime-parent",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-runtime-parent-2.3.2.pom": "b24f8d51f184a68bc1b86d48c0e3cfefeb21a44ede1c5f7303c58ae0488533ec"
+    }
+  },
+  {
+    "group": "com.sun.xml.bind.mvn",
+    "name": "jaxb-txw-parent",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-txw-parent-2.3.2.pom": "b55d3efa9b158f483a30e92c78ccb600f93314733d089eba9b74436f01b314a4"
+    }
+  },
+  {
+    "group": "com.sun.xml.fastinfoset",
+    "name": "FastInfoset",
+    "version": "1.2.16",
+    "artifacts": {
+      "FastInfoset-1.2.16.jar": "056f3a1e144409f21ed16afc26805f58e9a21f3fce1543c42d400719d250c511",
+      "FastInfoset-1.2.16.pom": "e147d258ab6e6691f70599a952400e6e6c7558f8c9c028dbe1be23178308e830"
+    }
+  },
+  {
+    "group": "com.sun.xml.fastinfoset",
+    "name": "fastinfoset-project",
+    "version": "1.2.16",
+    "artifacts": {
+      "fastinfoset-project-1.2.16.pom": "90582425adc1f40b41362dafb95173931225acaa5e79620d5e6bd52f646292ba"
+    }
+  },
+  {
+    "group": "com.termux",
+    "name": "termux-am-library",
+    "version": "v2.0.0",
+    "artifacts": {
+      "termux-am-library-v2.0.0.aar": "09128a409bd4d9a95807d53e17e070ca9d1c98c1694ac4297cb61961657aad91",
+      "termux-am-library-v2.0.0.module": "2ce537d0d9c5a30e3698f53a2418eb3d8884159cf047069e66091cd49eb30115"
+    }
+  },
+  {
+    "group": "commons-codec",
+    "name": "commons-codec",
+    "version": "1.10",
+    "artifacts": {
+      "commons-codec-1.10.pom": "bdb8db7012d112a6e3ea8fdb7c510b300d99eff0819d27dddba9c43397ea4cfb"
+    }
+  },
+  {
+    "group": "commons-codec",
+    "name": "commons-codec",
+    "version": "1.11",
+    "artifacts": {
+      "commons-codec-1.11.jar": "e599d5318e97aa48f42136a2927e6dfa4e8881dff0e6c8e3109ddbbff51d7b7d",
+      "commons-codec-1.11.pom": "c1e7140d1dea8fdf3528bc1e3c5444ac0b541297311f45f9806c213ec3ee9a10"
+    }
+  },
+  {
+    "group": "commons-io",
+    "name": "commons-io",
+    "version": "2.4",
+    "artifacts": {
+      "commons-io-2.4.jar": "cc6a41dc3eaacc9e440a6bd0d2890b20d36b4ee408fe2d67122f328bb6e01581",
+      "commons-io-2.4.pom": "b2b5dd46cf998fa626eb6f8a1c114f6167c8d392694164e62533e5898e9b31f2"
+    }
+  },
+  {
+    "group": "commons-io",
+    "name": "commons-io",
+    "version": "2.5",
+    "artifacts": {
+      "commons-io-2.5.jar": "a10418348d234968600ccb1d988efcbbd08716e1d96936ccc1880e7d22513474",
+      "commons-io-2.5.pom": "28ebb2998bc7d7acb25078526971640892000f3413586ff42d611f1043bfec30"
+    }
+  },
+  {
+    "group": "commons-logging",
+    "name": "commons-logging",
+    "version": "1.2",
+    "artifacts": {
+      "commons-logging-1.2.jar": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636",
+      "commons-logging-1.2.pom": "c91ab5aa570d86f6fd07cc158ec6bc2c50080402972ee9179fe24100739fbb20"
+    }
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-api",
+    "version": "1.39.0",
+    "artifacts": {
+      "grpc-api-1.39.0.jar": "4e80074dc2c627372044599cf873bf644450a218c58af48c03d5bb086cced484",
+      "grpc-api-1.39.0.pom": "e9c53f52f3a2d486afc1cb036aaa2744c0f9da52b3fe7cdc1dccf257bd0c9205"
+    }
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-context",
+    "version": "1.39.0",
+    "artifacts": {
+      "grpc-context-1.39.0.jar": "97fe70b4e7da86ed4fe3deb16d83fc89c7e5b764ebac8c9dd5d51dd4b5aa920c",
+      "grpc-context-1.39.0.pom": "fdf5e3ed7e2fe56c202168c81b603a69a9e1434fa87bc5b889d4e7211217425f"
+    }
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-core",
+    "version": "1.39.0",
+    "artifacts": {
+      "grpc-core-1.39.0.jar": "3febeb19e18873369efa9bf08edd4e49c4fa3ebdad44e704ac6ea352b62b6be2",
+      "grpc-core-1.39.0.pom": "3061586b03fbd8489a8f6820175f0732b9ef1c36692cd5b6c47d25e41c5de29e"
+    }
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-netty",
+    "version": "1.39.0",
+    "artifacts": {
+      "grpc-netty-1.39.0.jar": "672da08c944010494c29ce7ee8323194949d8520e4ea4fe0e6d44e65b9489700",
+      "grpc-netty-1.39.0.pom": "2128d47f127e3b0fcadcc0d19b9b4770975dfbe8c7fe2c71e93a607fadf7c8c2"
+    }
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-protobuf",
+    "version": "1.39.0",
+    "artifacts": {
+      "grpc-protobuf-1.39.0.jar": "9a9d94b93fbe8d34ca375108ca147d7b35a53da05109f412d1875448f4488244",
+      "grpc-protobuf-1.39.0.pom": "a27c0d8719a6b37fd97879559fc2dd0b0261c70ddbe578571be8843dc6592d9b"
+    }
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-protobuf-lite",
+    "version": "1.39.0",
+    "artifacts": {
+      "grpc-protobuf-lite-1.39.0.jar": "94d9c5ee88abe06a741b4e62d05df6251409e2ccc8e510575891ce3d780c164e",
+      "grpc-protobuf-lite-1.39.0.pom": "4d44961933b9b2f8d235b763d77803231cb5bf3359f8ec013e3c343388b22c09"
+    }
+  },
+  {
+    "group": "io.grpc",
+    "name": "grpc-stub",
+    "version": "1.39.0",
+    "artifacts": {
+      "grpc-stub-1.39.0.jar": "c85782e20da6eadbf07537f35d52bf2abafd891ae14c27b7d36a4d450575eeb3",
+      "grpc-stub-1.39.0.pom": "df0ff24c5cf3ec470287840f45a1ffdb6e02fad6dddefdeedd584f6499dd98e7"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-buffer",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-buffer-4.1.52.Final.jar": "41ca1035aee6e0f8177597d0a7610a5aa2c6e6fac744ac81fde4e5e58f639675",
+      "netty-buffer-4.1.52.Final.pom": "585266cbf6e147e3fe209300a70d5f0c4db64ccd702bc00690c42a33defe0060"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-codec",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-codec-4.1.52.Final.jar": "3c7e78dcce7e353d86ac7dba2c251ab5cddd4eb86eaa889cfe4229782b828e52",
+      "netty-codec-4.1.52.Final.pom": "3e4aa78b0c8308bede6f6e17ecfee6126b2abdeadb0e3da25aae67756966fa54"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-codec-http",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-codec-http-4.1.52.Final.jar": "b5da28d0ea878b07d3111acf5e4faf41288ef2302b26414190fdd1a7d973c80c",
+      "netty-codec-http-4.1.52.Final.pom": "4c7c220ae780374c781c82d1e2b79c8eb744da903bd2ad82d4a26bb149180c0b"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-codec-http2",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-codec-http2-4.1.52.Final.jar": "eb527a42d2289d12dee6d4753ca2715978a37bbb41c71915ce4e9539c49f93a1",
+      "netty-codec-http2-4.1.52.Final.pom": "1f9974433d8610b987b25ba3ebe9f91b599e220e0d44acc298cf39f055e8f3d3"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-codec-socks",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-codec-socks-4.1.52.Final.jar": "fecc577e0bb7721d6768cfc1846ee172911d16ab80dfbd9995d9657a551d4ea7",
+      "netty-codec-socks-4.1.52.Final.pom": "1d96921ae95e64a03c4ed75e9ea57b27ae30ab527ef92212cfda597267ce39f9"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-common",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-common-4.1.52.Final.jar": "0d1f101e4db7d530ed04d7cabd57d95c0750f059bb6b3fadfed0c80d4734c717",
+      "netty-common-4.1.52.Final.pom": "3658eb7929a4672b59afee222bae7a1227454c6fa39339ca4cac7a5ef30f3aa7"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-handler",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-handler-4.1.52.Final.jar": "2cdc21fbfae04940c85929039779c93f51f618f5efb216079319dcfcf32a55c1",
+      "netty-handler-4.1.52.Final.pom": "b374bba0bca6312fe6dbefb1a013ac7457c1a80c9f18ebcc059bdc2deb163147"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-handler-proxy",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-handler-proxy-4.1.52.Final.jar": "e8d07863ceb4bd4806e255a1d532c8650f0f3b2d4d006ad6d21812e941b42fdc",
+      "netty-handler-proxy-4.1.52.Final.pom": "696e3501d1ac73aa382555d1bd6c2c6831ad5fe3db106e5c82e808292f5be9b8"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-parent",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-parent-4.1.52.Final.pom": "be4bea6f606d47a8a5c3573047d04426d33b9db591baa6bce1e230fe223f903e"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-resolver",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-resolver-4.1.52.Final.jar": "6eeb72a233979cb45b0b4d6d46c5a41332c57c0cf8a803b1efc60dbbecba09a6",
+      "netty-resolver-4.1.52.Final.pom": "9b082e55f2f2711a84aac6702ce700b79fc90450381238e602b396ac76510152"
+    }
+  },
+  {
+    "group": "io.netty",
+    "name": "netty-transport",
+    "version": "4.1.52.Final",
+    "artifacts": {
+      "netty-transport-4.1.52.Final.jar": "9a3e6f8c0e55de363eb1ea10fe781797eca394e62186df2ae0b4eb2bce0b4541",
+      "netty-transport-4.1.52.Final.pom": "58a8aaa6566d95660046ce4c8ec8c4c711182bea7d8b7e994968e08418ddb37f"
+    }
+  },
+  {
+    "group": "io.noties.markwon",
+    "name": "core",
+    "version": "4.6.2",
+    "artifacts": {
+      "core-4.6.2.aar": "29e4c1de9aefa3d3c7f8a7948ba24c3696adc34b29e3d7d106eb35e8fa2c85fd",
+      "core-4.6.2.pom": "e7d0679effaf986249da447fa8fcb2717f5f21b066cbec50b33868fd27a37a39"
+    }
+  },
+  {
+    "group": "io.noties.markwon",
+    "name": "ext-strikethrough",
+    "version": "4.6.2",
+    "artifacts": {
+      "ext-strikethrough-4.6.2.aar": "222b87862dae20706ca8c5c853c831440d9062088ed27d4eccb0ed80f8df1d38",
+      "ext-strikethrough-4.6.2.pom": "6b46aec4625272d0a15beb34901b81b34ddc0df888838c685ea5bec6cf407628"
+    }
+  },
+  {
+    "group": "io.noties.markwon",
+    "name": "linkify",
+    "version": "4.6.2",
+    "artifacts": {
+      "linkify-4.6.2.aar": "e70bb1893bb6a2516775e8ce42a30e5e94aba0913cd179d8e5b87eb5ee89cf5c",
+      "linkify-4.6.2.pom": "126d94fc20a4a563ae2ec25e854f31a727d2ed7ba7c7c44bd5ecd1f78af8922a"
+    }
+  },
+  {
+    "group": "io.noties.markwon",
+    "name": "recycler",
+    "version": "4.6.2",
+    "artifacts": {
+      "recycler-4.6.2.aar": "e2050aa4b06e8c0f1ec45ebca6b84e20408737e7826b7776577fb7088c26c797",
+      "recycler-4.6.2.pom": "c9da96011b7ff1eaf8f2fc7d72c79ed92b282d6ff164bb39ae91c4c08eb87b99"
+    }
+  },
+  {
+    "group": "io.perfmark",
+    "name": "perfmark-api",
+    "version": "0.23.0",
+    "artifacts": {
+      "perfmark-api-0.23.0.jar": "c705b5c10c18ff3032b9e81742bc2f6b0e5607f6a6dfc0c8ad0cff75d4913042",
+      "perfmark-api-0.23.0.module": "84a12f34817d1f2f79df810bcbaacb29900678384d3dd0502df0bd963a4f3fdb"
+    }
+  },
+  {
+    "group": "jakarta.activation",
+    "name": "jakarta.activation-api",
+    "version": "1.2.1",
+    "artifacts": {
+      "jakarta.activation-api-1.2.1.jar": "8b0a0f52fa8b05c5431921a063ed866efaa41dadf2e3a7ee3e1961f2b0d9645b",
+      "jakarta.activation-api-1.2.1.pom": "42585cb07dda7f23aa04eb5e0940061944a246a67ad3d16942fbe569ff03cd31"
+    }
+  },
+  {
+    "group": "jakarta.xml.bind",
+    "name": "jakarta.xml.bind-api",
+    "version": "2.3.2",
+    "artifacts": {
+      "jakarta.xml.bind-api-2.3.2.jar": "69156304079bdeed9fc0ae3b39389f19b3cc4ba4443bc80508995394ead742ea",
+      "jakarta.xml.bind-api-2.3.2.pom": "b537b388dbab4cc0690b9d2fb0c74124d672531734567acf6e53130eab131ad6"
+    }
+  },
+  {
+    "group": "jakarta.xml.bind",
+    "name": "jakarta.xml.bind-api-parent",
+    "version": "2.3.2",
+    "artifacts": {
+      "jakarta.xml.bind-api-parent-2.3.2.pom": "15a55b7d537c9f9970aead28d2af97c059f65ff6102f76bbd29f1247dd8a6dfb"
+    }
+  },
+  {
+    "group": "javax.annotation",
+    "name": "javax.annotation-api",
+    "version": "1.3.2",
+    "artifacts": {
+      "javax.annotation-api-1.3.2.jar": "e04ba5195bcd555dc95650f7cc614d151e4bcd52d29a10b8aa2197f3ab89ab9b",
+      "javax.annotation-api-1.3.2.pom": "46a4a251ca406e78e4853d7a2bae83282844a4992851439ee9a1f23716f06b97"
+    }
+  },
+  {
+    "group": "javax.inject",
+    "name": "javax.inject",
+    "version": "1",
+    "artifacts": {
+      "javax.inject-1.jar": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff",
+      "javax.inject-1.pom": "943e12b100627804638fa285805a0ab788a680266531e650921ebfe4621a8bfa"
+    }
+  },
+  {
+    "group": "junit",
+    "name": "junit",
+    "version": "4.12",
+    "artifacts": {
+      "junit-4.12.jar": "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a",
+      "junit-4.12.pom": "90f163f78e3ffb6f1c7ad97de9e7eba4eea25807141b85d6d12be67ca25449c4"
+    }
+  },
+  {
+    "group": "junit",
+    "name": "junit",
+    "version": "4.13.2",
+    "artifacts": {
+      "junit-4.13.2.jar": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3",
+      "junit-4.13.2.pom": "569b6977ee4603c965c1c46c3058fa6e969291b0160eb6964dd092cd89eadd94"
+    }
+  },
+  {
+    "group": "net.java",
+    "name": "jvnet-parent",
+    "version": "1",
+    "artifacts": {
+      "jvnet-parent-1.pom": "281440811268e65d9e266b3cc898297e214e04f09740d0386ceeb4a8923d63bf"
+    }
+  },
+  {
+    "group": "net.java",
+    "name": "jvnet-parent",
+    "version": "3",
+    "artifacts": {
+      "jvnet-parent-3.pom": "30f5789efa39ddbf96095aada3fc1260c4561faf2f714686717cb2dc5049475a"
+    }
+  },
+  {
+    "group": "net.java.dev.jna",
+    "name": "jna",
+    "version": "5.6.0",
+    "artifacts": {
+      "jna-5.6.0.jar": "5557e235a8aa2f9766d5dc609d67948f2a8832c2d796cea9ef1d6cbe0b3b7eaf",
+      "jna-5.6.0.pom": "5fe81b0255978f24616d37b10608b79498a5f3073e1d9b2038d8736a831f2608"
+    }
+  },
+  {
+    "group": "net.java.dev.jna",
+    "name": "jna-platform",
+    "version": "5.6.0",
+    "artifacts": {
+      "jna-platform-5.6.0.jar": "9ecea8bf2b1b39963939d18b70464eef60c508fed8820f9dcaba0c35518eabf7",
+      "jna-platform-5.6.0.pom": "1beb35cb4184e6c906a7e32eaebd852dd3da0a263962e99134ab945832394e28"
+    }
+  },
+  {
+    "group": "net.sf.jopt-simple",
+    "name": "jopt-simple",
+    "version": "4.9",
+    "artifacts": {
+      "jopt-simple-4.9.jar": "26c5856e954b5f864db76f13b86919b59c6eecf9fd930b96baa8884626baf2f5",
+      "jopt-simple-4.9.pom": "7af7e2d8b24b4798f04c2b7da24c9fbd1b7557b4e017c2054481565916079092"
+    }
+  },
+  {
+    "group": "net.sf.kxml",
+    "name": "kxml2",
+    "version": "2.3.0",
+    "artifacts": {
+      "kxml2-2.3.0.jar": "f264dd9f79a1fde10ce5ecc53221eff24be4c9331c830b7d52f2f08a7b633de2",
+      "kxml2-2.3.0.pom": "31ce606f4e9518936299bb0d27c978fa61e185fd1de7c9874fe959a53e34a685"
+    }
+  },
+  {
+    "group": "org.apache",
+    "name": "apache",
+    "version": "13",
+    "artifacts": {
+      "apache-13.pom": "ff513db0361fd41237bef4784968bc15aae478d4ec0a9496f811072ccaf3841d"
+    }
+  },
+  {
+    "group": "org.apache",
+    "name": "apache",
+    "version": "15",
+    "artifacts": {
+      "apache-15.pom": "36c2f2f979ac67b450c0cb480e4e9baf6b40f3a681f22ba9692287d1139ad494"
+    }
+  },
+  {
+    "group": "org.apache",
+    "name": "apache",
+    "version": "16",
+    "artifacts": {
+      "apache-16.pom": "9f85ff2fd7d6cb3097aa47fb419ee7f0ebe869109f98aba9f4eca3f49e74a40e"
+    }
+  },
+  {
+    "group": "org.apache",
+    "name": "apache",
+    "version": "18",
+    "artifacts": {
+      "apache-18.pom": "7831307285fd475bbc36b20ae38e7882f11c3153b1d5930f852d44eda8f33c17"
+    }
+  },
+  {
+    "group": "org.apache",
+    "name": "apache",
+    "version": "21",
+    "artifacts": {
+      "apache-21.pom": "af10c108da014f17cafac7b52b2b4b5a3a1c18265fa2af97a325d9143537b380"
+    }
+  },
+  {
+    "group": "org.apache",
+    "name": "apache",
+    "version": "9",
+    "artifacts": {
+      "apache-9.pom": "4946e60a547c8eda69f3bc23c5b6f0dadcf8469ea49b1d1da7de34aecfcf18dd"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-compress",
+    "version": "1.20",
+    "artifacts": {
+      "commons-compress-1.20.jar": "0aeb625c948c697ea7b205156e112363b59ed5e2551212cd4e460bdb72c7c06e",
+      "commons-compress-1.20.pom": "d95678e3af56b17c7db6cff9645efad5eb59be9f3c1caaaf5f0146edf04691d7"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-parent",
+    "version": "25",
+    "artifacts": {
+      "commons-parent-25.pom": "467ae650442e876867379094e7518dfdd67d22c5352ebd39808c84259e9790ba"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-parent",
+    "version": "34",
+    "artifacts": {
+      "commons-parent-34.pom": "3a2e69d06d641d1f3b293126dc9e2e4ea6563bf8c36c87e0ab6fa4292d04b79c"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-parent",
+    "version": "35",
+    "artifacts": {
+      "commons-parent-35.pom": "7098a1ab8336ecd4c9dc21cbbcac869f82c66f64b8ac4f7988d41b4fcb44e49a"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-parent",
+    "version": "39",
+    "artifacts": {
+      "commons-parent-39.pom": "87cd27e1a02a5c3eb6d85059ce98696bb1b44c2b8b650f0567c86df60fa61da7"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-parent",
+    "version": "42",
+    "artifacts": {
+      "commons-parent-42.pom": "cd313494c670b483ec256972af1698b330e598f807002354eb765479f604b09c"
+    }
+  },
+  {
+    "group": "org.apache.commons",
+    "name": "commons-parent",
+    "version": "48",
+    "artifacts": {
+      "commons-parent-48.pom": "1e1f7de9370a7b7901f128f1dacd1422be74e3f47f9558b0f79e04c0637ca0b4"
+    }
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpclient",
+    "version": "4.5.13",
+    "artifacts": {
+      "httpclient-4.5.13.jar": "6fe9026a566c6a5001608cf3fc32196641f6c1e5e1986d1037ccdbd5f31ef743",
+      "httpclient-4.5.13.pom": "78eb9ada74929fcd63d07adc4f49236841a45cc29d5f817bf45801f513fd7e6c"
+    }
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpcomponents-client",
+    "version": "4.5.13",
+    "artifacts": {
+      "httpcomponents-client-4.5.13.pom": "9cba594c08db7271d0c20e9845d622bb39e69583910b45e7d5df82f6058d4dd9"
+    }
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpcomponents-client",
+    "version": "4.5.6",
+    "artifacts": {
+      "httpcomponents-client-4.5.6.pom": "b042b41f2391edb00d35f7f4e509aed2123648c1d246ce58d0f7b905c9fe1f73"
+    }
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpcomponents-core",
+    "version": "4.4.13",
+    "artifacts": {
+      "httpcomponents-core-4.4.13.pom": "c554e7008e4517c7ef54e005cc8b74f4c87a54a0ea2c6f57be5d0569df51936b"
+    }
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpcomponents-parent",
+    "version": "10",
+    "artifacts": {
+      "httpcomponents-parent-10.pom": "caaf967d94afb21753f36082c6086206bd1f48825ff596932cceba72b65d39fa"
+    }
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpcomponents-parent",
+    "version": "11",
+    "artifacts": {
+      "httpcomponents-parent-11.pom": "a901f87b115c55070c7ee43efff63e20e7b02d30af2443ae292bf1f4e532d3aa"
+    }
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpcore",
+    "version": "4.4.13",
+    "artifacts": {
+      "httpcore-4.4.13.jar": "e06e89d40943245fcfa39ec537cdbfce3762aecde8f9c597780d2b00c2b43424",
+      "httpcore-4.4.13.pom": "8f812d9fa7b72a3d4aa7f825278932a5df344b42a6d8398905879431a1bf9a97"
+    }
+  },
+  {
+    "group": "org.apache.httpcomponents",
+    "name": "httpmime",
+    "version": "4.5.6",
+    "artifacts": {
+      "httpmime-4.5.6.jar": "0b2b1102c18d3c7e05a77214b9b7501a6f6056174ae5604e0e256776eda7553e",
+      "httpmime-4.5.6.pom": "dfbfd6ffe2a784ca9817c46365aa7f8a578320b805bde39d6f55a0b09d8aa8ca"
+    }
+  },
+  {
+    "group": "org.bitbucket.b_c",
+    "name": "jose4j",
+    "version": "0.7.0",
+    "artifacts": {
+      "jose4j-0.7.0.jar": "eb14f69c0395d4a106c6c46fe6dff080c4608ccabc99b1f03933d374383d9bbe",
+      "jose4j-0.7.0.pom": "13128ccf90fb31f18d8109b484516649d5db0e47284d860e71a4cf3148153ed8"
+    }
+  },
+  {
+    "group": "org.bouncycastle",
+    "name": "bcpkix-jdk15on",
+    "version": "1.67",
+    "artifacts": {
+      "bcpkix-jdk15on-1.67.jar": "efbca754880ce3922ca47a43c1f0b72c45731450a0ef193b9db33bf4bb38ce5f",
+      "bcpkix-jdk15on-1.67.pom": "a9bb30bd987dc305b05ee53e9f27e6e902fc10ce3c6e99618cff0362d796b04d"
+    }
+  },
+  {
+    "group": "org.bouncycastle",
+    "name": "bcprov-jdk15on",
+    "version": "1.67",
+    "artifacts": {
+      "bcprov-jdk15on-1.67.jar": "fa0041a36f9f20af3c6b8dbf6eb49a969e2c9cc029049d61acc526ba3247b3ef",
+      "bcprov-jdk15on-1.67.pom": "a473a77476dd631630ebb3a37b34812f94e6a7245c39765a14d7231b90e0645b"
+    }
+  },
+  {
+    "group": "org.bouncycastle",
+    "name": "bcprov-jdk18on",
+    "version": "1.72",
+    "artifacts": {
+      "bcprov-jdk18on-1.72.jar": "39287f2208a753db419f5ca529d6c80f094614aa74d790331126b3c9c6b85fda",
+      "bcprov-jdk18on-1.72.pom": "e3bb6d9e1346cfc230e0900f177e60a12b6dbe212a92e1cd2cfb1e48d4c04839"
+    }
+  },
+  {
+    "group": "org.checkerframework",
+    "name": "checker-compat-qual",
+    "version": "2.0.0",
+    "artifacts": {
+      "checker-compat-qual-2.0.0.jar": "a40b2ce6d8551e5b90b1bf637064303f32944d61b52ab2014e38699df573941b",
+      "checker-compat-qual-2.0.0.pom": "38a154d751dabff3f02c038b6850b197ca861f9a553b9064a30a327fd8928c6d"
+    }
+  },
+  {
+    "group": "org.checkerframework",
+    "name": "checker-qual",
+    "version": "2.5.8",
+    "artifacts": {
+      "checker-qual-2.5.8.pom": "33ac6a0f1341ae96647c7d4465f4aa3d24fe97d2697bcee2ceae6fc8b5ef2c3c"
+    }
+  },
+  {
+    "group": "org.checkerframework",
+    "name": "checker-qual",
+    "version": "3.12.0",
+    "artifacts": {
+      "checker-qual-3.12.0.jar": "ff10785ac2a357ec5de9c293cb982a2cbb605c0309ea4cc1cb9b9bc6dbe7f3cb",
+      "checker-qual-3.12.0.module": "d047949c1b81091c2c3913771fac2f32a2fa549ba3d5d548cc8c0b6dfa493777"
+    }
+  },
+  {
+    "group": "org.checkerframework",
+    "name": "checker-qual",
+    "version": "3.5.0",
+    "artifacts": {
+      "checker-qual-3.5.0.jar": "729990b3f18a95606fc2573836b6958bcdb44cb52bfbd1b7aa9c339cff35a5a4",
+      "checker-qual-3.5.0.pom": "2836b3b8a78edb31a1803592e60fc767b21f2d190764631ba6efa0837bb35721"
+    }
+  },
+  {
+    "group": "org.codehaus",
+    "name": "codehaus-parent",
+    "version": "4",
+    "artifacts": {
+      "codehaus-parent-4.pom": "6b87237de8c2e1740cf80627c7f3ce3e15de1930bb250c55a1eca94fa3e014df"
+    }
+  },
+  {
+    "group": "org.codehaus.mojo",
+    "name": "animal-sniffer-annotations",
+    "version": "1.14",
+    "artifacts": {
+      "animal-sniffer-annotations-1.14.jar": "2068320bd6bad744c3673ab048f67e30bef8f518996fa380033556600669905d",
+      "animal-sniffer-annotations-1.14.pom": "1879f19a05991e3ed95910b96689333396b0c467a215dc4d1f90018404b72a26"
+    }
+  },
+  {
+    "group": "org.codehaus.mojo",
+    "name": "animal-sniffer-annotations",
+    "version": "1.19",
+    "artifacts": {
+      "animal-sniffer-annotations-1.19.jar": "e67ec27ceeaf13ab5d54cf5fdbcc544c41b4db8d02d9f006678cca2c7c13ee9d",
+      "animal-sniffer-annotations-1.19.pom": "3a9d5113d80dcc19c5c8e641bd7068ba0a2df804201f5688ad27d0094c6cf1d2"
+    }
+  },
+  {
+    "group": "org.codehaus.mojo",
+    "name": "animal-sniffer-parent",
+    "version": "1.14",
+    "artifacts": {
+      "animal-sniffer-parent-1.14.pom": "f51550a06b1410bd4962cb0e71df0b921a60a7ef47bfa9c4825a14be72316eea"
+    }
+  },
+  {
+    "group": "org.codehaus.mojo",
+    "name": "animal-sniffer-parent",
+    "version": "1.19",
+    "artifacts": {
+      "animal-sniffer-parent-1.19.pom": "67ab5727f7ad38ef1be72a0539ab9036a7644f3ebbf010687e6dd975a21e95b8"
+    }
+  },
+  {
+    "group": "org.codehaus.mojo",
+    "name": "mojo-parent",
+    "version": "34",
+    "artifacts": {
+      "mojo-parent-34.pom": "3e395d6fbc43c09a3774cac8694ce527398305ea3fd5492d80e25af27d382a9c"
+    }
+  },
+  {
+    "group": "org.codehaus.mojo",
+    "name": "mojo-parent",
+    "version": "50",
+    "artifacts": {
+      "mojo-parent-50.pom": "f819cad1b15b6a7791c8b601e96bde33765e4681395807db4537d2f0dedd493b"
+    }
+  },
+  {
+    "group": "org.conscrypt",
+    "name": "conscrypt-openjdk-uber",
+    "version": "2.5.2",
+    "artifacts": {
+      "conscrypt-openjdk-uber-2.5.2.jar": "eaf537d98e033d0f0451cd1b8cc74e02d7b55ec882da63c88060d806ba89c348",
+      "conscrypt-openjdk-uber-2.5.2.pom": "b5fd548732f932545d777890eb995222bfe866232351be908137e39c3c672d8b"
+    }
+  },
+  {
+    "group": "org.eclipse.ee4j",
+    "name": "project",
+    "version": "1.0.2",
+    "artifacts": {
+      "project-1.0.2.pom": "7495a07a797e88e43c3bc1a87421bd8b1fc55e32291fa18e4e32d8031ddc873f"
+    }
+  },
+  {
+    "group": "org.eclipse.ee4j",
+    "name": "project",
+    "version": "1.0.5",
+    "artifacts": {
+      "project-1.0.5.pom": "916b4794d8d8220a59a3fdf6a64dbe794aeb23395e888b81ae36a9b5a2c591a6"
+    }
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "jaxb-bom",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-bom-2.3.2.pom": "a1018bb54678ed9f5acb2f7a4084e385ff510201f4e9dbf5f75dc6a675f66be7"
+    }
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "jaxb-runtime",
+    "version": "2.3.2",
+    "artifacts": {
+      "jaxb-runtime-2.3.2.jar": "e6e0a1e89fb6ff786279e6a0082d5cef52dc2ebe67053d041800737652b4fd1b",
+      "jaxb-runtime-2.3.2.pom": "9448a5ad7fa68a6083dfbe4f42c8c83e082b9202a105401fc68e944c26548b34"
+    }
+  },
+  {
+    "group": "org.glassfish.jaxb",
+    "name": "txw2",
+    "version": "2.3.2",
+    "artifacts": {
+      "txw2-2.3.2.jar": "4a6a9f483388d461b81aa9a28c685b8b74c0597993bf1884b04eddbca95f48fe",
+      "txw2-2.3.2.pom": "a79dd002fb038183ff286a2635be2e68c103b87e0e64717d8d44bfd017fd33ea"
+    }
+  },
+  {
+    "group": "org.hamcrest",
+    "name": "hamcrest-core",
+    "version": "1.3",
+    "artifacts": {
+      "hamcrest-core-1.3.jar": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+      "hamcrest-core-1.3.pom": "fde386a7905173a1b103de6ab820727584b50d0e32282e2797787c20a64ffa93"
+    }
+  },
+  {
+    "group": "org.hamcrest",
+    "name": "hamcrest-integration",
+    "version": "1.3",
+    "artifacts": {
+      "hamcrest-integration-1.3.jar": "70f418efbb506c5155da5f9a5a33262ea08a9e4d7fea186aa9015c41a7224ac2",
+      "hamcrest-integration-1.3.pom": "42f0be9bf98c12dacdcb99dd141d83d4dc5bb7c37a6f26684cd3ff2287667fba"
+    }
+  },
+  {
+    "group": "org.hamcrest",
+    "name": "hamcrest-library",
+    "version": "1.3",
+    "artifacts": {
+      "hamcrest-library-1.3.jar": "711d64522f9ec410983bd310934296da134be4254a125080a0416ec178dfad1c",
+      "hamcrest-library-1.3.pom": "1ceb4bfb0f098ae29b935044b2363e11323313fe3ed2055df8b79737d5056277"
+    }
+  },
+  {
+    "group": "org.hamcrest",
+    "name": "hamcrest-parent",
+    "version": "1.3",
+    "artifacts": {
+      "hamcrest-parent-1.3.pom": "6d535f94efb663bdb682c9f27a50335394688009642ba7a9677504bc1be4129b"
+    }
+  },
+  {
+    "group": "org.jacoco",
+    "name": "org.jacoco.agent",
+    "version": "0.8.8",
+    "artifacts": {
+      "org.jacoco.agent-0.8.8.jar": "072ecbd496896623899a696fff12c01c1615f737616d2792e6d0e10cdf8a610d",
+      "org.jacoco.agent-0.8.8.pom": "7dd13c80aff315032983357c650a887d6fdb4c8a8870b207bb4802c49809e7b4"
+    }
+  },
+  {
+    "group": "org.jacoco",
+    "name": "org.jacoco.ant",
+    "version": "0.8.8",
+    "artifacts": {
+      "org.jacoco.ant-0.8.8.jar": "02e33bd2c48dc0be67c2fea84d43beececfd400da6797c58153253d4c30aca15",
+      "org.jacoco.ant-0.8.8.pom": "fafff75819609030f4626509313c0861428c2c26c8d36e9a8938334a04478909"
+    }
+  },
+  {
+    "group": "org.jacoco",
+    "name": "org.jacoco.build",
+    "version": "0.8.8",
+    "artifacts": {
+      "org.jacoco.build-0.8.8.pom": "f4ce0b1285fd24fc6c772f42857298315904dde8fd5677267a0fad5ff9ce2aef"
+    }
+  },
+  {
+    "group": "org.jacoco",
+    "name": "org.jacoco.core",
+    "version": "0.8.8",
+    "artifacts": {
+      "org.jacoco.core-0.8.8.jar": "474c782f809d88924713dfdbf0acb79d330f904be576484803463d0465611643",
+      "org.jacoco.core-0.8.8.pom": "f5fab5a48df823b83c0ea35026032368cc9b81800efb257cc7a5928298fee225"
+    }
+  },
+  {
+    "group": "org.jacoco",
+    "name": "org.jacoco.report",
+    "version": "0.8.8",
+    "artifacts": {
+      "org.jacoco.report-0.8.8.jar": "2c129110f3e3fcaa1f8179578ea3894586199cb0826be5c7790278084c9622a9",
+      "org.jacoco.report-0.8.8.pom": "5213af2916bb2690be871917d82a0f9c2ba1e88b796a59343fc03df8ae138716"
+    }
+  },
+  {
+    "group": "org.jdom",
+    "name": "jdom2",
+    "version": "2.0.6",
+    "artifacts": {
+      "jdom2-2.0.6.jar": "1345f11ba606d15603d6740551a8c21947c0215640770ec67271fe78bea97cf5",
+      "jdom2-2.0.6.pom": "47b23a79fe336b741b82434c6e049d68165256e405e75c10921fd72fa8a65d8d"
+    }
+  },
+  {
+    "group": "org.jetbrains",
+    "name": "annotations",
+    "version": "13.0",
+    "artifacts": {
+      "annotations-13.0.jar": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+      "annotations-13.0.pom": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397"
+    }
+  },
+  {
+    "group": "org.jetbrains.intellij.deps",
+    "name": "trove4j",
+    "version": "1.0.20200330",
+    "artifacts": {
+      "trove4j-1.0.20200330.jar": "c5fd725bffab51846bf3c77db1383c60aaaebfe1b7fe2f00d23fe1b7df0a439d",
+      "trove4j-1.0.20200330.pom": "87721cbaa65a3c97d8b1ba9d207840f164c9fe38759fc9ea10ffe26565f8d3e9"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-reflect",
+    "version": "1.7.10",
+    "artifacts": {
+      "kotlin-reflect-1.7.10.jar": "187c5e5a588a6ed18c3a41b54df138a5944121bdb396be1c3fa4abee67397955",
+      "kotlin-reflect-1.7.10.pom": "6c3f87a68cd022481b5015a5c21b6ed014a67348d30e103bde970d84fe328eca"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib",
+    "version": "1.5.10",
+    "artifacts": {
+      "kotlin-stdlib-1.5.10.jar": "ca87c454cd3f2e60931f1803c59699d510d3b4b959cd7119296fb947581d722d",
+      "kotlin-stdlib-1.5.10.pom": "305ad32461e1929a1cc32ba89861d9c41936a11189e6f486016eaf8b31c5bbcb"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib",
+    "version": "1.7.10",
+    "artifacts": {
+      "kotlin-stdlib-1.7.10.jar": "e771fe74250a943e8f6346713201ff1d8cb95c3a5d1a91a22b65a9e04f6a8901",
+      "kotlin-stdlib-1.7.10.pom": "6cc0cf5a2bc02dee060ebb90c3535fc3ddbd7a3bab210ace3e142aaf81764d81"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-common",
+    "version": "1.5.10",
+    "artifacts": {
+      "kotlin-stdlib-common-1.5.10.jar": "d958ce94beda85f865829fb95012804866db7d5246615fd71a2f5aabca3e7994",
+      "kotlin-stdlib-common-1.5.10.pom": "3bd55a1b94168bcf7cee3e506d52a688aaae36be0d0177973f6b266ed8e8be1c"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-common",
+    "version": "1.7.10",
+    "artifacts": {
+      "kotlin-stdlib-common-1.7.10.jar": "19f102efe9629f8eabc63853ad15c533e47c47f91fca09285c5bde86e59f91d4",
+      "kotlin-stdlib-common-1.7.10.pom": "1011c63b88ee94cdff5d596937307559bc55037b733cc00ce63cda3cfae0a8eb"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk7",
+    "version": "1.5.0",
+    "artifacts": {
+      "kotlin-stdlib-jdk7-1.5.0.jar": "ac12f092f12b575c1f9e0ab5025b1e610b0fe95663e26371c16c328895711bae",
+      "kotlin-stdlib-jdk7-1.5.0.pom": "ed3e6cd34c3d3a773da0e007bb12e164548725464e5adb61644a98fb29254ad1"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk7",
+    "version": "1.7.10",
+    "artifacts": {
+      "kotlin-stdlib-jdk7-1.7.10.jar": "54f61351b1936ad88f4e53059fe781e723eae51d78ed9e7422d8b403574ec682",
+      "kotlin-stdlib-jdk7-1.7.10.pom": "121837fe00d003944c9faaa1c25f93cecccb03eb9dd8f10d9e8adf4b7a7d90dc"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk8",
+    "version": "1.5.0",
+    "artifacts": {
+      "kotlin-stdlib-jdk8-1.5.0.jar": "15e6c81b9e845eefe58d51a04670bb90418046f458264ec0e61ee9bdbc1bfae7",
+      "kotlin-stdlib-jdk8-1.5.0.pom": "d0bb3e9d3c63e1ed9b07794f856b722042705717df30510e4cce113ee2ca594d"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-stdlib-jdk8",
+    "version": "1.7.10",
+    "artifacts": {
+      "kotlin-stdlib-jdk8-1.7.10.jar": "8aafdd60c94f454c92e5066d266a5ed53ecc63c78f623b3fd9db56fea4032873",
+      "kotlin-stdlib-jdk8-1.7.10.pom": "592b5252f018e3dbefeca1a535fd2315dda7cb9e7bde5a06d6b419cf3643d47d"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-android",
+    "version": "1.5.0",
+    "artifacts": {
+      "kotlinx-coroutines-android-1.5.0.jar": "7099198391d673c199fea084423d9f3fdc79470acba19111330c7f88504279c7",
+      "kotlinx-coroutines-android-1.5.0.module": "d1a2757af7be4f1941769f22e03a8813617574d61cf6c70305777eb594a89531"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-core",
+    "version": "1.5.0",
+    "artifacts": {
+      "kotlinx-coroutines-core-1.5.0.module": "d8a26a896da32fb1f8c3f13fe41cb798a612a1c1ddf3a555d82ee1ff16ef13d3"
+    }
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-core-jvm",
+    "version": "1.5.0",
+    "artifacts": {
+      "kotlinx-coroutines-core-jvm-1.5.0.jar": "78d6cc7135f84d692ff3752fcfd1fa1bbe0940d7df70652e4f1eaeec0c78afbb",
+      "kotlinx-coroutines-core-jvm-1.5.0.module": "c885dd0281076c5843826de317e3cbcdc3d8859dbeef53ae1cfacd1b9c60f96e"
+    }
+  },
+  {
+    "group": "org.json",
+    "name": "json",
+    "version": "20180813",
+    "artifacts": {
+      "json-20180813.jar": "518080049ba83181914419d11a25d9bc9833a2d729b6a6e7469fa52851356da8",
+      "json-20180813.pom": "c7e660c50bf4ecda0fc81ab62b489db9171e207fa784ddcb48c6c85bb40b49f5"
+    }
+  },
+  {
+    "group": "org.jvnet.staxex",
+    "name": "stax-ex",
+    "version": "1.8.1",
+    "artifacts": {
+      "stax-ex-1.8.1.jar": "20522549056e9e50aa35ef0b445a2e47a53d06be0b0a9467d704e2483ffb049a",
+      "stax-ex-1.8.1.pom": "8fc84f36ce6da6ce8c893b6538199a7f69a69a0706d9b17a3ee6a3a09452eed6"
+    }
+  },
+  {
+    "group": "org.lsposed.hiddenapibypass",
+    "name": "hiddenapibypass",
+    "version": "5.0",
+    "artifacts": {
+      "hiddenapibypass-5.0.aar": "cc613bc6318ffb435ffa1a3e7dd1652abee5f650c25858b9bd282d2fe26b7a38",
+      "hiddenapibypass-5.0.module": "d3d2536857691e1eae567d5c4d8f5cc1a6178064b7dca78fab8d740e2742124c"
+    }
+  },
+  {
+    "group": "org.ow2",
+    "name": "ow2",
+    "version": "1.5",
+    "artifacts": {
+      "ow2-1.5.pom": "0f8a1b116e760b8fe6389c51b84e4b07a70fc11082d4f936e453b583dd50b43b"
+    }
+  },
+  {
+    "group": "org.ow2",
+    "name": "ow2",
+    "version": "1.5.1",
+    "artifacts": {
+      "ow2-1.5.1.pom": "321ddbb7ee6fe4f53dea6b4cd6db74154d6bfa42391c1f763b361b9f485acf05"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm",
+    "version": "9.2",
+    "artifacts": {
+      "asm-9.2.jar": "b9d4fe4d71938df38839f0eca42aaaa64cf8b313d678da036f0cb3ca199b47f5",
+      "asm-9.2.pom": "dfb12a1b224bf01be1fd604020466f894241bcb645dcce395edd8cd6f8a50df4"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm",
+    "version": "9.5",
+    "artifacts": {
+      "asm-9.5.jar": "b62e84b5980729751b0458c534cf1366f727542bb8d158621335682a460f0353",
+      "asm-9.5.pom": "2c9cceb951cc6586de8d9a16c672ad3e4c30b9c323028d7a3c3366560d5627b1"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-analysis",
+    "version": "9.2",
+    "artifacts": {
+      "asm-analysis-9.2.jar": "878fbe521731c072d14d2d65b983b1beae6ad06fda0007b6a8bae81f73f433c4",
+      "asm-analysis-9.2.pom": "773cc1a2bfc14c6c4a979c51a075c0234a0bf694fc3abe4facf454f37a145f1b"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-analysis",
+    "version": "9.5",
+    "artifacts": {
+      "asm-analysis-9.5.jar": "39f1cf1791335701c3b02cae7b2bc21057ec9a55b2240789cb6d552b2b2c62fa",
+      "asm-analysis-9.5.pom": "2a29950910f99df7b19a5037eb3dc39beace9ca3a07855a63791e6dab3eb43a3"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-commons",
+    "version": "9.2",
+    "artifacts": {
+      "asm-commons-9.2.jar": "be4ce53138a238bb522cd781cf91f3ba5ce2f6ca93ec62d46a162a127225e0a6",
+      "asm-commons-9.2.pom": "02824e839f2a2f0e72959fdd30b4897240f05afc43de42d7ba0b18437601c070"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-commons",
+    "version": "9.5",
+    "artifacts": {
+      "asm-commons-9.5.jar": "72eee9fbafb9de8d9463f20dd584a48ceeb7e5152ad4c987bfbe17dd4811c9ae",
+      "asm-commons-9.5.pom": "8a6e460eedf8cc7b85d33c756213e6a5f7875f4a8383d535d199f3211ec2355c"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-tree",
+    "version": "9.2",
+    "artifacts": {
+      "asm-tree-9.2.jar": "aabf9bd23091a4ebfc109c1f3ee7cf3e4b89f6ba2d3f51c5243f16b3cffae011",
+      "asm-tree-9.2.pom": "f61f3ebea5520ddf19f452b03c426c7231bdd8a81d7ac28765cb5271225ac378"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-tree",
+    "version": "9.5",
+    "artifacts": {
+      "asm-tree-9.5.jar": "3c33a648191079aeaeaeb7c19a49b153952f9e40fe86fbac5205554ddd9acd94",
+      "asm-tree-9.5.pom": "a72aaaf8dd051899fa089e783ec7d4827ac4d7d1876201c6deecbaa94a0dc956"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-util",
+    "version": "9.2",
+    "artifacts": {
+      "asm-util-9.2.jar": "ff5b3cd331ae8a9a804768280da98f50f424fef23dd3c788bb320e08c94ee598",
+      "asm-util-9.2.pom": "ddd06913f147d70ae68e7a6e4356a55b33f14dde6162dbff2bd0e289581f1ad2"
+    }
+  },
+  {
+    "group": "org.ow2.asm",
+    "name": "asm-util",
+    "version": "9.5",
+    "artifacts": {
+      "asm-util-9.5.jar": "c467f1bb3c08888f47243e2d475209b34a772d627e44fca06752e18bb038bd74",
+      "asm-util-9.5.pom": "ad7ef390a46f8be68fcfa8ea101c9d7391f198ca9be1b2cb151d083b5fc1292f"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "annotations",
+    "version": "4.10",
+    "artifacts": {
+      "annotations-4.10.jar": "4b9b06d54686d22ad82908b15a9fecf55a563aa819ab0036415662859b2f706b",
+      "annotations-4.10.module": "aafc4a9eca95473176ace73abc22f7de9c940b1a31bff4c60be75dbb9cfe685e"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "junit",
+    "version": "4.10",
+    "artifacts": {
+      "junit-4.10.jar": "8bb2066aef7bb2c18309afbf7dc8cd10f46a7ac6e3b348552dfffabc4053013c",
+      "junit-4.10.module": "a0bdded2cee1392c127317e7d06c6f7ccb835569634c80656219078c85ae988f"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "nativeruntime",
+    "version": "4.10",
+    "artifacts": {
+      "nativeruntime-4.10.jar": "218b498612c21b46399ba1a04f385141ab73602fc579f35b516278c7f1a09938",
+      "nativeruntime-4.10.module": "2caab7c25aef4bc71e38cb45cc2d761a7c3045fe766b1d0b44bb40901ebe30d9"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "nativeruntime-dist-compat",
+    "version": "1.0.0",
+    "artifacts": {
+      "nativeruntime-dist-compat-1.0.0.jar": "2a102e7eb37d0d57ac11afe177d989363036e06ad1956c9bd24dc0db435566e4",
+      "nativeruntime-dist-compat-1.0.0.pom": "cf0184bd1aea55218964527ec9ea3893bb84fdd2766b880da1ef5609f199d6c6"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "pluginapi",
+    "version": "4.10",
+    "artifacts": {
+      "pluginapi-4.10.jar": "f3e3489f0e4d7d2320121ad7d7a3dfb3ac19ae25cc6c8f6197d014395d53daa3",
+      "pluginapi-4.10.module": "86b4c8be054547d772bda9147fcf8dc8a8ce964890039243cc2950f89a5833c8"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "plugins-maven-dependency-resolver",
+    "version": "4.10",
+    "artifacts": {
+      "plugins-maven-dependency-resolver-4.10.jar": "369096d6b7ab139ff9290d0c7a7a411c0c29703612e9fbb708f60d8ac57b28c6",
+      "plugins-maven-dependency-resolver-4.10.pom": "d659786f340f3c5189f6b5d44bf7c916aa1592e489bc98c9fae697cfd162cd77"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "resources",
+    "version": "4.10",
+    "artifacts": {
+      "resources-4.10.jar": "e30f4e034bcde82daab668dece685790eaaa65cc33bffa3c24c1d7089eca56d5",
+      "resources-4.10.module": "be572f495e5905fa74ed04d1e2f0d7ef0a83ceb52958f9c9737c0b7d15f19596"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "robolectric",
+    "version": "4.10",
+    "artifacts": {
+      "robolectric-4.10.jar": "d9e8fc4e93e4d9c7d4087db9f7b4475edea8b81c7855d95f3d075f2d13c2c599",
+      "robolectric-4.10.module": "6ac621270430029d18ee8deeba4c3e9f1216c58dbfe8182e540059fdf49166d4"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "sandbox",
+    "version": "4.10",
+    "artifacts": {
+      "sandbox-4.10.jar": "0289e56005ad6f2767c27f40ef789cad05e8d19e405e42577eba3f9c8838a61b",
+      "sandbox-4.10.module": "c9f5e24f37eb70c6029b349f5a1a2cc716212bd53968f7552e910598993e333d"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "shadowapi",
+    "version": "4.10",
+    "artifacts": {
+      "shadowapi-4.10.jar": "70152dd03319654bc5f45384e369a31e203f9c8242b1c90484e14b14834ccd9e",
+      "shadowapi-4.10.module": "6ed1a40760e587187126efda2db12e2a5d2fa7b588781d5fcda55b7ef46134ac"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "shadows-framework",
+    "version": "4.10",
+    "artifacts": {
+      "shadows-framework-4.10.jar": "b99cafe625d054234bcd4a17ac0878804b70416b2f06aeb9fa0427f24b9c36bb",
+      "shadows-framework-4.10.module": "9a43d7654a670093271bf8b1eb9728d552271fb66e792ce2451756d20dd8e6e2"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "utils",
+    "version": "4.10",
+    "artifacts": {
+      "utils-4.10.jar": "58ceb57626e299c8f9210c6ae466df54d8ce1dd50feb869cadcd54957c850f3d",
+      "utils-4.10.pom": "1a864a80f71a47e963a0beba3779feac756e5c608f36079cd1e00ca5c13d7496"
+    }
+  },
+  {
+    "group": "org.robolectric",
+    "name": "utils-reflector",
+    "version": "4.10",
+    "artifacts": {
+      "utils-reflector-4.10.jar": "0d98b2b120a7f1205bb6a8b86fb8ccdbba044b1d7dbdcdb826b391fe6e30efa5",
+      "utils-reflector-4.10.module": "44efaefdab868a374382a0b72cc804fa8adbde0977c8a1c53748ac83de249d76"
+    }
+  },
+  {
+    "group": "org.slf4j",
+    "name": "slf4j-api",
+    "version": "1.7.30",
+    "artifacts": {
+      "slf4j-api-1.7.30.jar": "cdba07964d1bb40a0761485c6b1e8c2f8fd9eb1d19c53928ac0d7f9510105c57",
+      "slf4j-api-1.7.30.pom": "7e0747751e9b67e19dcb5206f04ea22cc03d250c422426402eadd03513f2c314"
+    }
+  },
+  {
+    "group": "org.slf4j",
+    "name": "slf4j-parent",
+    "version": "1.7.30",
+    "artifacts": {
+      "slf4j-parent-1.7.30.pom": "11647956e48a0c5bfb3ac33f6da7e83f341002b6857efd335a505b687be34b75"
+    }
+  },
+  {
+    "group": "org.sonatype.oss",
+    "name": "oss-parent",
+    "version": "4",
+    "artifacts": {
+      "oss-parent-4.pom": "c513995cf019d9213d4fda666589937b2bf1bea5c4cdd337e6170e80b18406ee"
+    }
+  },
+  {
+    "group": "org.sonatype.oss",
+    "name": "oss-parent",
+    "version": "7",
+    "artifacts": {
+      "oss-parent-7.pom": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454"
+    }
+  },
+  {
+    "group": "org.sonatype.oss",
+    "name": "oss-parent",
+    "version": "9",
+    "artifacts": {
+      "oss-parent-9.pom": "fb40265f982548212ff82e362e59732b2187ec6f0d80182885c14ef1f982827a"
+    }
+  },
+  {
+    "group": "org.tensorflow",
+    "name": "tensorflow-lite-metadata",
+    "version": "0.1.0-rc2",
+    "artifacts": {
+      "tensorflow-lite-metadata-0.1.0-rc2.jar": "2c2a264f842498c36d34d2a7b91342490d9a962862c85baac1acd54ec2fca6d9",
+      "tensorflow-lite-metadata-0.1.0-rc2.pom": "9a4f5e5674366c156c90391662f03ed7c5971d6aa63832df74a271da6ff82e96"
+    }
+  },
+  {
+    "group": "xerces",
+    "name": "xercesImpl",
+    "version": "2.12.0",
+    "artifacts": {
+      "xercesImpl-2.12.0.jar": "b50d3a4ca502faa4d1c838acb8aa9480446953421f7327e338c5dda3da5e76d0",
+      "xercesImpl-2.12.0.pom": "138ebb33cce7080fd5cdb4fb90a0ee550173d7e8d41024da8c0d788b1460a1f3"
+    }
+  },
+  {
+    "group": "xml-apis",
+    "name": "xml-apis",
+    "version": "1.4.01",
+    "artifacts": {
+      "xml-apis-1.4.01.jar": "a840968176645684bb01aed376e067ab39614885f9eee44abe35a5f20ebe7fad",
+      "xml-apis-1.4.01.pom": "09a82ff150ac86bfa31145e0a6afd89a02e4504785f5da112e4fae1425020e92"
+    }
+  }
+]
