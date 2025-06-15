@@ -72,6 +72,11 @@
         inherit gradle jdk;
         gradle2nix = gradle2nix.packages.${system}.default;
       };
+
+      genDeps = pkgs.callPackage ./nix/gen-deps.nix {
+        inherit gradle;
+        go-maven-resolver = self.packages.${system}.go-maven-resolver;
+      };
     in
     {
       packages.${system} = {
@@ -104,6 +109,7 @@
           jdk
           gradle
           updateLocks
+          genDeps
           android.androidsdk
           android.platform-tools
           gradle2nix.packages.${system}.default

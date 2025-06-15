@@ -1,0 +1,10 @@
+--- url2json.sh
++++ url2json.sh
+@@ -149,6 +149,7 @@
+ # Format into a Nix attrset entry
+ echo -ne "
+   {
++    \"id\": \"$1\",
+     \"path\": \"${PKG_PATH}\",
+     \"repo\": \"${REPO_URL}\",
+     \"files\": {
