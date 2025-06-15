@@ -5,7 +5,6 @@
   gradle2nix,
   gradle,
   jdk,
-  extraGradleFlags,
 }:
 
 writeShellScriptBin "update-locks" ''
@@ -16,6 +15,5 @@ writeShellScriptBin "update-locks" ''
   ${lib.getExe gradle2nix} \
     --gradle-home=${gradle}/lib/gradle \
     --gradle-jdk=${jdk.home} \
-    ${lib.strings.concatStringsSep " " extraGradleFlags}
     -- --write-locks
 ''

@@ -11,7 +11,12 @@
   };
 
   outputs =
-    { nixpkgs, gradle2nix, ... }:
+    {
+      self,
+      nixpkgs,
+      gradle2nix,
+      ...
+    }:
     let
       system = "x86_64-linux"; # TODO iter attrs over [ aarch64-darwin x86_64-darwin x86_64-linux]
       inherit (nixpkgs) lib;
@@ -64,7 +69,7 @@
 
       # TODO use newScope or overlays like status-im app does
       updateLocks = pkgs.callPackage ./nix/update-locks.nix {
-        inherit gradle jdk extraGradleFlags;
+        inherit gradle jdk;
         gradle2nix = gradle2nix.packages.${system}.default;
       };
     in
@@ -89,6 +94,7 @@
             cp -r build/* $out
           '';
         };
+        go-maven-resolver = pkgs.callPackage ./nix/go-maven-resolver.nix { };
       };
       devShells.${system}.default = pkgs.mkShellNoCC {
         JAVA_HOME = jdk.home;
@@ -101,6 +107,7 @@
           android.androidsdk
           android.platform-tools
           gradle2nix.packages.${system}.default
+          self.packages.${system}.go-maven-resolver
         ];
       };
     };
