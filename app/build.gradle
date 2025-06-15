@@ -38,22 +38,6 @@ android {
         // version should be gradle version + 23.0.0, as of now 7.4.2 + 23.0.0
         def lint_version = "30.4.2"
         implementation "com.android.tools.lint:lint-gradle:$lint_version"
-        implementation "com.android.tools.lint:lint:$lint_version"
-        implementation "com.android.tools.lint:lint-api:$lint_version"
-        implementation "com.android.tools.lint:lint-checks:$lint_version"
-        implementation "com.android.tools.external.org-jetbrains:uast:$lint_version"
-        implementation "com.android.tools:play-sdk-proto:$lint_version"
-
-        configurations {
-            all {
-                // work around this error:
-                // Duplicate class found in modules annotations-13.0
-                exclude group: "com.android.tools.external.com-intellij", module: "intellij-core"
-            }
-        }
-
-        implementation "org.apache.httpcomponents:httpclient:4.5.6"
-        implementation "org.codehaus.groovy:groovy:3.0.10"
 
         implementation project(":terminal-view")
         implementation project(":termux-shared")
