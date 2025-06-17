@@ -21,7 +21,7 @@ let
 
     if [ -z "$1" ]; then
         # gather a full dependency report
-        ${lib.getExe gradle} -I init.gradle \
+        ${lib.getExe gradle} -I nix/init.gradle \
           --no-daemon --dependency-verification=off \
           --no-configuration-cache --no-configure-on-demand \
           :ForceDependencyResolutionPlugin_resolveAllDependencies >/dev/null 2>&1 || exit 1
