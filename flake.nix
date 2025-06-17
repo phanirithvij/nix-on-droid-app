@@ -3,7 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    flake-compat.url = "github:edolstra/flake-compat";
 
     # gradle2nix only for buildGradlePackage
     # lockFile generation in nix/deps-scripts.nix
