@@ -107,7 +107,7 @@
           jdk
           gradle
           scripts.resolve-gradle-deps
-          scripts.gen-deps-lock
+          scripts.regen-lock
           scripts.build-apk
           android.androidsdk
           android.platform-tools
